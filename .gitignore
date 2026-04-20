@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Jira MCP export — contains account emails and internal payloads; regenerate locally.
+ingest/last_jira_currentUser.json

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backlog home</title>
+  <link rel="stylesheet" href="board_styles.css?v=home-dual-9">
+</head>
+<body>
+  <div id="load-error" class="error-banner"></div>
+  <header>
+    <nav class="app-pages" aria-label="Pages">
+      <a href="index.html" class="app-page-link">Home</a>
+      <a href="board.html" class="app-page-link is-current">Board</a>
+      <a href="focus.html" class="app-page-link">Daily focus</a>
+    </nav>
+    <div class="header-title-row">
+      <h1>Backlog home</h1>
+      <button type="button" class="btn-add-card-main" id="btn-open-add-task" aria-label="Add new card" title="Add new card">
+        <span class="btn-add-card-icon" aria-hidden="true">+</span>
+        <span class="btn-add-card-label">New card</span>
+      </button>
+    </div>
+    <p class="sub"><strong>Do not open this file from Finder/Explorer</strong> (double‑click) — the board will stay blank because browsers block loading <code>board-data.json</code> over <code>file://</code>. From the <code>backlog</code> folder run <code>.venv/bin/python scripts/serve_board.py</code> and open <strong><code>http://127.0.0.1:8765/index.html</code></strong> (hub; port may differ — check the terminal). Regenerate data with <code>scripts/render_board.py</code> or <code>scripts/refresh_from_jira.py</code> as needed. <strong>New card</strong> tasks are stored in this browser — always use the same host (e.g. <code>127.0.0.1</code> vs <code>localhost</code> are different storage).</p>
+    <nav class="view-tabs" aria-label="Board layout">
+      <button type="button" class="view-tab is-active" data-board-view="priority" aria-current="page">By priority</button>
+      <button type="button" class="view-tab" data-board-view="labels">By label</button>
+    </nav>
+    <p class="warn">
+      <strong>Local only:</strong> Dragging cards and saving edits stay in this browser (localStorage).
+      Use <strong>New card</strong> (top right) for quick tasks — also stored here only, not in Jira.
+      Ingest Slack / Gemini / other work via <code>items.yaml</code> (see <code>ingest/MULTI_SOURCE.md</code>).
+    </p>
+    <nav id="filter-bar" class="filter-bar" aria-label="Board filters">
+      <div class="filter-group">
+        <label for="filter-source">Source</label>
+        <select id="filter-source" autocomplete="off">
+          <option value="all" selected>All sources</option>
+          <option value="jira">Jira</option>
+          <option value="slack">Slack</option>
+          <option value="gemini_notes">Gemini notes</option>
+          <option value="other">Other / local</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-front">Label (front)</label>
+        <select id="filter-front" autocomplete="off">
+          <option value="all" selected>All labels</option>
+        </select>
+      </div>
+      <p id="filter-summary" class="filter-summary" aria-live="polite"></p>
+    </nav>
+  </header>
+  <main id="board-root" class="board"></main>
+
+  <div id="modal-backdrop" class="modal-backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-dialog-heading">
+      <div class="modal-head">
+        <h2 id="modal-dialog-heading">Edit card</h2>
+      </div>
+      <div class="modal-body">
+        <label for="modal-title-input">Title</label>
+        <input type="text" id="modal-title-input" class="modal-title-input" autocomplete="off" placeholder="Card title" />
+
+        <label for="modal-front">Label (front)</label>
+        <select id="modal-front" autocomplete="off"></select>
+
+        <label for="modal-priority">Priority</label>
+        <select id="modal-priority" autocomplete="off">
+          <option value="critical">Critical</option>
+          <option value="urgent">Urgent</option>
+          <option value="medium">Medium</option>
+          <option value="backlog">Low</option>
+          <option value="next_steps">Next step</option>
+        </select>
+
+        <label for="modal-status">Status (workflow)</label>
+        <select id="modal-status" autocomplete="off">
+          <option value="backlog">Backlog</option>
+          <option value="selected_for_development">Selected for development</option>
+          <option value="in_progress">In progress</option>
+          <option value="in_review">In review</option>
+          <option value="blocked">Blocked</option>
+          <option value="done">Done</option>
+          <option value="canceled">Canceled</option>
+        </select>
+
+        <label for="modal-description">Description</label>
+        <textarea id="modal-description" rows="6" autocomplete="off"></textarea>
+
+        <label for="modal-dod">Definition of done</label>
+        <textarea id="modal-dod" rows="3" autocomplete="off"></textarea>
+
+        <label for="modal-due">Due date</label>
+        <input type="date" id="modal-due" autocomplete="off" />
+
+        <label for="modal-context">Context (local notes only)</label>
+        <textarea id="modal-context" rows="3" placeholder="Not synced anywhere — your working notes" autocomplete="off"></textarea>
+
+        <label>Links &amp; sources</label>
+        <div id="modal-links" class="links"></div>
+      </div>
+      <div class="modal-foot">
+        <button type="button" id="btn-modal-reset-desc">Reset description to source</button>
+        <button type="button" class="danger" id="btn-modal-reset-all">Reset all local edits</button>
+        <button type="button" class="danger" id="btn-modal-remove-from-board">Remove from board…</button>
+        <button type="button" id="btn-modal-close">Cancel</button>
+        <button type="button" class="primary" id="btn-modal-save">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="add-modal-backdrop" class="modal-backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="add-modal-title">
+      <div class="modal-head">
+        <h2 id="add-modal-title">Add task</h2>
+      </div>
+      <div class="modal-body">
+        <label for="add-title">Title</label>
+        <input type="text" id="add-title" autocomplete="off" placeholder="Short title" />
+
+        <label for="add-description">Description</label>
+        <textarea id="add-description" rows="4" autocomplete="off"></textarea>
+
+        <label for="add-front">Label (front)</label>
+        <select id="add-front" autocomplete="off"></select>
+
+        <label for="add-priority">Priority</label>
+        <select id="add-priority" autocomplete="off">
+          <option value="critical">Critical</option>
+          <option value="urgent" selected>Urgent</option>
+          <option value="medium">Medium</option>
+          <option value="backlog">Low</option>
+          <option value="next_steps">Next step</option>
+        </select>
+
+        <label for="add-status">Status</label>
+        <select id="add-status" autocomplete="off">
+          <option value="backlog" selected>Backlog</option>
+          <option value="selected_for_development">Selected for development</option>
+          <option value="in_progress">In progress</option>
+          <option value="in_review">In review</option>
+          <option value="blocked">Blocked</option>
+          <option value="done">Done</option>
+          <option value="canceled">Canceled</option>
+        </select>
+
+        <label for="add-dod">Definition of done (optional)</label>
+        <textarea id="add-dod" rows="2" autocomplete="off"></textarea>
+
+        <label for="add-people">People (optional, comma-separated)</label>
+        <input type="text" id="add-people" autocomplete="off" placeholder="Name, Name" />
+      </div>
+      <div class="modal-foot">
+        <button type="button" id="btn-add-cancel">Cancel</button>
+        <button type="button" class="primary" id="btn-add-save">Add task</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="backlog_shared.js" defer></script>
+  <script src="board_app.js?v=home-dual-10" defer></script>
+</body>
+</html>

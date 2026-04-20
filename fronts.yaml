@@ -1,0 +1,88 @@
+# Canonical "fronts" (work themes). Slugs must match items[].front in items.yaml.
+version: 1
+
+fronts:
+  - slug: sponsor_lead_bank
+    label: Sponsor bank + lead bank
+    description: Sponsor bank alignment, lead bank dependencies, DA / destination architecture ties.
+    ingest_keywords:
+      - sponsor bank
+      - lead bank
+      - sponsor-bank
+      - destination-architecture
+      - blocked-da
+
+  - slug: release_beta
+    label: Release beta
+    description: Troy CC beta waves, staging dates, onboarding epics.
+    ingest_keywords:
+      - troy-cc-beta
+      - troy cc beta
+      - CCF beta
+      - wave 1
+      - wave 2
+      - staging
+
+  - slug: beta_testing
+    label: Beta testing
+    description: Beta tester track, staging test scenarios, validation and evidence for CC beta.
+    ingest_keywords:
+      - troy-cc-beta-tester
+      - troy-cc-staging-tests
+      - beta testing
+      - beta-testing
+
+  - slug: fraud
+    label: Fraud
+    description: Fraud programs, DA task force fraud track, controls.
+    ingest_keywords:
+      - fraud
+      - DA task force fraud
+      - C3P-73
+
+  - slug: policies_procedures_due_diligence
+    label: Policies, procedures & due diligence
+    description: Policy docs, procedures, DD packs, regulatory artifacts.
+    ingest_keywords:
+      - due diligence
+      - policy
+      - procedure
+      - regulatory disclosure
+
+  - slug: viottis_brain
+    label: Viotti's Brain
+    description: Work routed through or owned with Lucas Viotti (underwriting, sponsor-bank doc packs, policy alignment).
+    ingest_keywords:
+      - Viotti
+      - Lucas Viotti
+      - viotti
+
+  - slug: data_modeling
+    label: Data modeling
+    description: Metrics, dashboards, semantic models, analytical design.
+    ingest_keywords:
+      - data model
+      - dashboard
+      - metric
+      - CC US Dashboard
+
+  - slug: unit_economics_country_5
+    label: Unit economics (country 5)
+    description: US / country-5 unit economics and P&L views.
+    ingest_keywords:
+      - unit economics
+      - country 5
+      - US P&L
+
+  - slug: career_plan
+    label: Career plan
+    description: Personal growth, IC track, skills, reviews.
+    ingest_keywords:
+      - career
+      - development plan
+      - promotion
+
+  - slug: other
+    label: Other
+    description: Catch-all when no other front fits.
+    ingest_keywords: []

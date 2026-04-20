@@ -1,0 +1,248 @@
+/* Daily focus page — complements board_styles.css */
+.focus-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 1.25rem 0.75rem;
+  max-width: 72rem;
+}
+
+.focus-toolbar label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.focus-toolbar input[type="date"] {
+  padding: 0.4rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.focus-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 22rem);
+  gap: 1.25rem;
+  align-items: start;
+  margin: 0 1.25rem 1.5rem;
+  max-width: 72rem;
+}
+
+@media (max-width: 860px) {
+  .focus-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .focus-panel--working {
+    order: -1;
+  }
+}
+
+.focus-panel {
+  margin: 0;
+  padding: 1rem 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.focus-panel--working {
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--accent) 6%, var(--surface)),
+    var(--surface)
+  );
+}
+
+@supports not (color: color-mix(in srgb, red, blue)) {
+  .focus-panel--working {
+    background: var(--surface);
+  }
+}
+
+.focus-panel-lead {
+  margin: 0 0 0.85rem 0;
+  font-size: 0.8125rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.focus-panel-lead--muted {
+  font-size: 0.78rem;
+  margin-bottom: 0.75rem;
+}
+
+.focus-working-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.focus-working-head h2 {
+  margin: 0;
+}
+
+.focus-working-count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+}
+
+.focus-working-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.focus-working-empty {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--muted);
+  line-height: 1.45;
+  padding: 0.5rem 0;
+}
+
+button.focus-working-card {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  color: inherit;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+
+button.focus-working-card:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  box-shadow: 0 1px 4px color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.focus-working-card-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.2rem;
+}
+
+.focus-working-card-ref {
+  font-size: 0.68rem;
+  color: var(--muted);
+  font-family: ui-monospace, monospace;
+  word-break: break-all;
+}
+
+.focus-panel h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.focus-hint {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.focus-task-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.focus-task-row:last-child {
+  border-bottom: none;
+}
+
+.focus-task-row input {
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+.focus-task-open {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  text-underline-offset: 2px;
+}
+
+.focus-task-open:hover {
+  color: var(--text);
+  text-decoration-color: var(--text);
+}
+
+.focus-task-text {
+  flex: 1;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.focus-task-meta {
+  font-size: 0.68rem;
+  color: var(--muted);
+  font-family: ui-monospace, monospace;
+  max-width: 8rem;
+  text-align: right;
+  word-break: break-all;
+}
+
+.focus-empty {
+  color: var(--muted);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.focus-muted {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  margin: 0;
+}
+
+.focus-subheading {
+  margin: 0 0 0.35rem 0;
+  font-size: 0.9rem;
+}
+
+.focus-summary-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.875rem;
+}
+
+.focus-save-status {
+  min-height: 1.25rem;
+  font-size: 0.78rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+main.focus-main {
+  padding-bottom: 2rem;
+}

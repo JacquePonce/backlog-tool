@@ -1,0 +1,352 @@
+# Items that are not synced from Jira (edit here; run refresh_from_jira.py to merge into items.yaml).
+version: 1
+
+items:
+  - id: local-wave-jira-coverage
+    title: Refresh WAVE_JIRA_COVERAGE.md after Jira changes
+    description: >
+      Keep deliverable vs Jira card mapping current for CCF beta waves;
+      pull live statuses when Atlassian MCP is authenticated.
+    front: release_beta
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: >
+      Document updated with current Jira statuses and risks; links validated.
+    dates:
+      due: 2026-04-30
+    sources:
+      - type: other
+        url: ""
+        ref: troy-beta/WAVE_JIRA_COVERAGE.md
+
+  - id: local-slack-eligibility-thread
+    title: Troy CC Beta Eligibility solution review (follow-up)
+    description: >
+      Thread on eligibility solution review; capture decisions and owners
+      after next sync.
+    front: release_beta
+    status: backlog
+    people:
+      - Vitoria Previato
+    definition_of_done: >
+      Action items assigned; linked Jira issues created or updated.
+    sources:
+      - type: slack
+        url: https://nubank.slack.com/archives/C07KD9QAV5L/p1772641511021559
+        ref: "#us-working-team thread 2026-03-04"
+
+  - id: slack-temp-us-cc-beta-fast-trackers
+    title: "Slack: US CC Beta fast trackers — channel kickoff (Apr 2026)"
+    description: >
+      Centralize beta phase conversation; fast tracker bill cycles (5d open/close, 3d grace).
+      Track vacation replies and who can join as fast trackers.
+    front: release_beta
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: >
+      Fast tracker list confirmed; dates aligned; follow-ups captured.
+    sources:
+      - type: slack
+        url: https://nubank.slack.com/archives/C0AS294RL6R/p1776090896353669
+        ref: "#temp-us-cc-beta-fast-trackers"
+
+  - id: slack-self-dm-action-notes
+    title: "Slack (saved notes): Off-hours sync, beta testers channel, fraud follow-ups"
+    description: >
+      From self-DM notes — schedule off-hours meeting with Jen; open channel with beta testers;
+      fraud reporting flow with lead (closed accounts, suspicion, credit bureau, block cards, notifications).
+    front: other
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: >
+      Each line item either scheduled, owned in Jira, or explicitly parked.
+    sources:
+      - type: slack
+        url: https://nubank.enterprise.slack.com/archives/D01G7UVSXEC/p1776085729551009
+        ref: "Self-DM notes 2026-04-13"
+
+  - id: slack-us-credit-underwriting-beta
+    title: "Slack: CS underwriting readiness for Troy CC Beta (#us-credit-strategy)"
+    description: >
+      Thread on underwriting readiness and usage on Troy CC Beta; follow NM / acquisition link thread.
+    front: release_beta
+    status: backlog
+    people:
+      - Vitoria Previato
+    definition_of_done: >
+      Readiness decision documented; linked actions tracked.
+    sources:
+      - type: slack
+        url: https://nubank.enterprise.slack.com/archives/C08AM396AK1/p1772636015372949
+        ref: "#us-credit-strategy — underwriting thread"
+
+  - id: slack-cc-factory-update-beta-cards
+    title: "Slack: Update troy-cc-beta / troy-cc-alpha cards before planning (#cc-factory-release-working-group)"
+    description: >
+      Planning prep — ensure Jira cards are updated on the labeled backlog board.
+    front: release_beta
+    status: backlog
+    people:
+      - Giovanna Perez
+    definition_of_done: >
+      Cards reviewed for your scope; board link current.
+    sources:
+      - type: slack
+        url: https://nubank.slack.com/archives/C09EYRVBW10/p1767621340713059
+        ref: "#cc-factory-release-working-group"
+
+  - id: gemini-notes-carolina-jacqueline-2026-04-13
+    title: "Gemini notes: Carolina / Jacqueline (2026-04-13)"
+    description: Meeting notes in Google Docs (Gemini). Review action items and decisions.
+    front: other
+    status: backlog
+    people:
+      - Jacqueline Ponce
+      - Carolina Mendes
+    definition_of_done: >
+      Notes reviewed; actions copied to Jira or this board as needed.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1Tp-WH9_Z6kbUOuGEJ7FGT_r00RVSPgRMLy86DhQ24F0/edit
+        ref: Notes by Gemini 2026-04-13
+
+  - id: gemini-notes-carolina-jacqueline-2026-04-09
+    title: "Gemini notes: Carolina / Jacqueline (2026-04-09)"
+    description: Meeting notes in Google Docs (Gemini).
+    front: other
+    status: backlog
+    people:
+      - Jacqueline Ponce
+      - Carolina Mendes
+    definition_of_done: Notes reviewed; follow-ups tracked.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1J8rigAJ2owhZOl9NLjL7-WLA-m47B7gZOKCe4Sn9AN4/edit
+        ref: Notes by Gemini 2026-04-09
+
+  - id: gemini-notes-cc-us-dashboard-en
+    title: "Gemini notes: CC US Dashboard presentation (English, 2026-04-08)"
+    description: Dashboard presentation meeting — English notes.
+    front: data_modeling
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: >
+      Dashboard narrative aligned with stakeholders; open questions listed.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1GJyYevGDlUUOJR_dJgPreOhcKnQD8sAJhcXlB0ZMJvs/edit
+        ref: CC US Dashboard Notes EN 2026-04-08
+
+  - id: gemini-notes-cc-us-dashboard-pt
+    title: "Gemini notes: CC US Dashboard presentation (Portuguese, 2026-04-08)"
+    description: Dashboard presentation meeting — Portuguese notes.
+    front: data_modeling
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: Same coverage as EN version; consolidate if duplicate.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1i7N6WdQ493h62rj6Bkfg8WUEz1ZMC8G3W9j42uuqrmY/edit
+        ref: CC US Dashboard Notes PT 2026-04-08
+
+  - id: gemini-notes-meeting-2026-04-07
+    title: "Gemini notes: Meeting 2026-04-07"
+    description: Google Doc notes captured by Gemini.
+    front: other
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: Notes reviewed; actions tracked.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1cvWGqCbD6nX__uuK3z5KyP2lpo-wEocFzR5UIpVeGZg/edit
+        ref: Notes by Gemini 2026-04-07
+
+  - id: gemini-notes-davi-jacqueline-2026-04-06
+    title: "Gemini notes: Davi / Jacqueline (2026-04-06)"
+    description: Meeting notes in Google Docs (Gemini).
+    front: other
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: Notes reviewed; actions tracked.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1uvVLfGiS8_60blgzI5ysgoo0JPdgzf4eueiGvHHCDEM/edit
+        ref: Notes by Gemini 2026-04-06
+
+  - id: gemini-notes-nadia-jacqueline-2026-04-06
+    title: "Gemini notes: Nadia / Jacqueline (2026-04-06)"
+    description: Meeting notes in Google Docs (Gemini).
+    front: other
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: Notes reviewed; actions tracked.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1rMo8nXRQx2Jgk5f98FdxoIv0XiJe93g63vKHQ6OIBlY/edit
+        ref: Notes by Gemini 2026-04-06 Nadia
+
+  - id: gemini-notes-kickoff-beta-sb-2026-03-24
+    title: "Gemini notes: Kickoff Beta Release <> Sponsor Bank (2026-03-24)"
+    description: Kickoff session notes (Gemini).
+    front: sponsor_lead_bank
+    status: backlog
+    people:
+      - Jacqueline Ponce
+    definition_of_done: >
+      Kickoff commitments reflected in plan or Jira.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1AflUtnPIV5T8DfaiTiX0TvQTbsUYEAVcjP0Y4OEz4OQ/edit
+        ref: Kickoff Beta <> SB 2026-03-24
+
+  - id: gemini-action-nadia-2026-04-13-recon-nico-julia
+    title: "Gemini follow-up: recon fix, Nico PM support, ping Júlia (Nadia 1:1, 2026-04-13)"
+    description: >
+      From Gemini “Próximas etapas”: (1) Ajustar recon — dias + divergência de 12 cents, esta ou próxima semana.
+      (2) Suportar Nico (PM Factory) com Thiago no que era do Viotti.
+      (3) Follow-up com Júlia sobre erro de reconciliação que Caetano reportou.
+    front: sponsor_lead_bank
+    status: backlog
+    priority: urgent
+    people:
+      - Jacqueline Ponce
+      - Nadia Andrushchenko
+    definition_of_done: >
+      Recon ajustado ou ticketado; Nico onboarded; thread com Júlia resolvida ou escalada.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1jqhb_xxLL_-sXPba72hDcSFpv18W3GUaKEcWhXJ9pSQ/edit
+        ref: Nadia / Jacqueline 2026-04-13 — Notes by Gemini
+
+  - id: gemini-action-transaction-balance-whiteboard-my-tasks
+    title: "Transaction / balance whiteboard — Jacqueline actions (Gemini)"
+    description: >
+      Finish spreadsheet simulating report data for Felipe; define sales request/response logic and impact
+      with DA on accounting; post summary + next steps on team channel; update Jira with Davi to break down
+      alpha vs beta scope (per Gemini suggested next steps).
+    front: sponsor_lead_bank
+    status: backlog
+    priority: urgent
+    people:
+      - Jacqueline Ponce
+      - Felipe Rojas
+      - Davi Melazo
+    definition_of_done: >
+      Spreadsheet shared; Jira reflects boundaries/DoD; channel update sent; open questions to DA tracked.
+    sources:
+      - type: gdrive
+        url: https://docs.google.com/document/d/1HrxQjoIvuqwR0MnRvvPgZemNJgNIXBSfdxlEpa_YGYs/edit
+        ref: Whiteboard - Transaction + Balance Logic — Notes by Gemini
+
+  - id: slack-mpim-troy-sb-ack-da-jira-2026-04-13
+    title: "Slack: acknowledge DA Jira date change + thank (Giovanna thread)"
+    description: >
+      Group thread asked for someone to acknowledge DA updating Jira dates and thank the partner side.
+    front: sponsor_lead_bank
+    status: backlog
+    people:
+      - Jacqueline Ponce
+      - Giovanna Perez
+    definition_of_done: >
+      Message sent in thread; any follow-up with DA captured.
+    sources:
+      - type: slack
+        url: https://nubank.enterprise.slack.com/archives/C0ASH9UE9NZ/p1776111198026089
+        ref: MPIM Troy/SB — DA Jira update 2026-04-13
+
+  - id: slack-dm-vitoria-ux-tests-janna-customer-facing-2026-04-13
+    title: "Slack: Vitoria — UX test detail for staging/prod + Janna alignment + customer-facing channel"
+    description: >
+      Vitoria asked to open topic in customer-facing channel; align with Janna on UX test scenarios/screens;
+      define process for eng testers vs timeline/testers filters.
+    front: release_beta
+    status: backlog
+    people:
+      - Jacqueline Ponce
+      - Vitoria Previato
+    definition_of_done: >
+      Thread opened where requested; Janna loop closed or scheduled; tester checklist agreed.
+    sources:
+      - type: slack
+        url: https://nubank.enterprise.slack.com/archives/D08QW6JAL6R/p1776107884966299?thread_ts=1776098034.874899
+        ref: DM Vitoria — UX / Janna / customer-facing 2026-04-13
+
+  - id: slack-gdm-viotti-procedures-docs-pack-2026-04-13
+    title: "Slack: Viotti DM — policies, procedures template, adverse action draft, underwriting policy links"
+    description: >
+      Nicolas + Lucas shared Confluence DB, Google doc templates, adverse action procedure draft,
+      US underwriting policy, USBANK Jira filter — review and file follow-ups as needed.
+    front: release_beta
+    status: backlog
+    people:
+      - Jacqueline Ponce
+      - Lucas Viotti
+      - Nicolas Guillen
+    definition_of_done: >
+      Read/review logged; gaps turned into Jira or backlog cards if needed.
+    sources:
+      - type: slack
+        url: https://nubank.enterprise.slack.com/archives/C0AS9STDL5P/p1776108958617859
+        ref: GDM Viotti/Guillen — doc pack 2026-04-13
+
+  - id: slack-cc-factory-rwg-metrics-mrc4816-review-2026-04-13
+    title: "Slack: CC Factory RWG — review must-have metrics tracker (MRC-4816) w/ Dharmesh"
+    description: >
+      Dharmesh expanded CC Beta Metrics epic with per-must-have tracker stories from your Confluence callouts;
+      asks you to review and discuss in 1:1 (not full planning). Ops update also tags you to identify metrics
+      cards prioritized for current sprint.
+    front: release_beta
+    status: backlog
+    people:
+      - Jacqueline Ponce
+      - Dharmesh Chheda
+    definition_of_done: >
+      Reviewed Jira structure; aligned on sprint-prioritized metric cards; 1:1 held or scheduled.
+    sources:
+      - type: slack
+        url: https://nubank.slack.com/archives/C09EYRVBW10/p1776100572067069?thread_ts=1776100371.880539&cid=C09EYRVBW10
+        ref: "#cc-factory-release-working-group — metrics update 2026-04-13"
+
+  - id: slack-us-cc-beta-launch-tester-transition-plan-2026-04-13
+    title: "Slack: US CC Beta — share polished cycles-per-customer transition plan"
+    description: >
+      Vitoria signaled confidence to move remaining testers; you are to share the overall plan (cycles per customer)
+      being finalized.
+    front: release_beta
+    status: backlog
+    priority: urgent
+    people:
+      - Jacqueline Ponce
+      - Vitoria Previato
+    definition_of_done: >
+      Plan posted in thread or linked doc; stakeholders acknowledged.
+    sources:
+      - type: slack
+        url: https://nubank.slack.com/archives/C09H2CH24G1/p1776100524111629?thread_ts=1775828270.520359&cid=C09H2CH24G1
+        ref: "#us-cc-beta-launch — tester transition 2026-04-13"
+
+  - id: slack-internal-tools-golden-paths-ae-ds-2026-04-08
+    title: "Slack: #internal-tools — Golden Paths initiative (participant + AE/DS workflow next step)"
+    description: >
+      Ana summarized 3 internal-tools initiatives; you are listed on Golden Paths — Workflow AI Agents.
+      Next step: wait for BA AI Guild workflow definitions; think about AE/DS workflows; consider escalating
+      to more senior AE/DS leaders.
+    front: other
+    status: backlog
+    people:
+      - Jacqueline Ponce
+      - Ana Hitomi
+    definition_of_done: >
+      BA dependency noted; AE/DS workflow angle captured or meeting scheduled.
+    sources:
+      - type: slack
+        url: https://nubank.slack.com/archives/C0AAGN991B2/p1775679528631379?thread_ts=1775679528.631379&cid=C0AAGN991B2
+        ref: "#internal-tools — initiatives summary 2026-04-08"

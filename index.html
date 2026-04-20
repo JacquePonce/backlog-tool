@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backlog</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:#f8f9fa;color:#333;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.container{text-align:center;max-width:1000px;padding:40px 24px}
+h1{font-size:32px;font-weight:700;color:#1a1a1a;letter-spacing:-.5px}
+.subtitle{font-size:15px;color:#78909c;margin-top:8px;line-height:1.5}
+.cards{display:flex;gap:24px;margin-top:40px;flex-wrap:wrap;justify-content:center}
+.card{flex:1;min-width:220px;max-width:280px;padding:32px 24px;background:#fff;border-radius:12px;border:1px solid #e0e0e0;text-decoration:none;color:#333;transition:all .2s;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:12px}
+.card:hover{border-color:#90a4ae;box-shadow:0 4px 20px rgba(0,0,0,.08);transform:translateY(-2px)}
+.card-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px}
+.card-icon.board{background:#e3f2fd;color:#1565c0}
+.card-icon.focus{background:#e8f5e9;color:#2e7d32}
+.card-title{font-size:16px;font-weight:600}
+.card-desc{font-size:13px;color:#78909c;line-height:1.5}
+.card-env{display:inline-block;padding:3px 10px;border-radius:10px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-top:4px}
+.card-env.board{background:#e3f2fd;color:#1565c0}
+.card-env.focus{background:#e8f5e9;color:#2e7d32}
+.hint{margin-top:32px;font-size:13px;color:#90a4ae;max-width:36rem;line-height:1.5}
+.hint code{font-size:12px;background:#eceff1;padding:2px 6px;border-radius:4px}
+.file-warn{display:none;margin:0 0 20px 0;max-width:40rem;padding:14px 16px;background:#ffebee;border:1px solid #ef9a9a;border-radius:10px;color:#b71c1c;font-size:14px;line-height:1.5;text-align:left}
+.file-warn code{font-size:13px;background:#ffcdd2;padding:2px 6px;border-radius:4px}
+.file-warn strong{display:block;margin-bottom:6px}
+</style>
+</head>
+<body>
+<div id="file-protocol-warn" class="file-warn" role="alert"></div>
+<div class="container">
+  <h1>Backlog</h1>
+  <p class="subtitle">YAML-backed Kanban and daily focus — local browser tools</p>
+  <div class="cards">
+    <a class="card" href="board.html">
+      <div class="card-icon board">&#9632;</div>
+      <div class="card-title">Kanban board</div>
+      <div class="card-desc">Interactive swimlanes, drag-and-drop, filters, card editor</div>
+      <span class="card-env board">Board</span>
+    </a>
+    <a class="card" href="focus.html">
+      <div class="card-icon focus">&#10003;</div>
+      <div class="card-title">Daily focus</div>
+      <div class="card-desc">Pick in-progress work per day; edit cards in place</div>
+      <span class="card-env focus">Focus</span>
+    </a>
+  </div>
+  <p class="hint">Run <code>.venv/bin/python scripts/serve_board.py</code> from this folder, then open <strong><code>http://127.0.0.1:8765/index.html</code></strong> (adjust port if the terminal shows a different one). Not <code>file://</code> — <code>board-data.json</code> must load over HTTP.</p>
+</div>
+<script>
+(function () {
+  if (location.protocol !== "file:") return;
+  var el = document.getElementById("file-protocol-warn");
+  if (!el) return;
+  el.style.display = "block";
+  el.innerHTML =
+    "<strong>This page was opened from disk (file://)</strong>" +
+    " — the Kanban and Daily focus pages will stay blank or broken because the browser blocks loading <code>board-data.json</code>. " +
+    "In Terminal: <code>cd</code> to the <code>backlog</code> folder, run <code>.venv/bin/python scripts/serve_board.py</code>, " +
+    "then use the <strong>http://127.0.0.1:…/index.html</strong> URL from that window (not double‑clicking the file).";
+})();
+</script>
+</body>
+</html>

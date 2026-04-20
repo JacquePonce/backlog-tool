@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily focus — Backlog</title>
+  <link rel="stylesheet" href="board_styles.css?v=home-dual-9">
+  <link rel="stylesheet" href="focus_styles.css?v=3">
+</head>
+<body>
+  <div id="load-error" class="error-banner"></div>
+  <header>
+    <nav class="app-pages" aria-label="Pages">
+      <a href="index.html" class="app-page-link">Home</a>
+      <a href="board.html" class="app-page-link">Board</a>
+      <a href="focus.html" class="app-page-link is-current">Daily focus</a>
+    </nav>
+    <div class="header-title-row">
+      <h1>Daily focus</h1>
+      <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+        <button type="button" class="btn-add-card-main" id="btn-open-add-task" aria-label="New task" title="New task (same list as Board)">
+          <span class="btn-add-card-icon" aria-hidden="true">+</span>
+          <span class="btn-add-card-label">New task</span>
+        </button>
+        <button type="button" class="btn-add-card-main" id="btn-refresh" style="border-color:var(--border);background:var(--surface);color:var(--text);" title="Reload from board-data.json + browser storage">
+          <span class="btn-add-card-label">Refresh</span>
+        </button>
+      </div>
+    </div>
+    <p class="sub"><strong>Open via the local server</strong> — from the <code>backlog</code> folder run <code>.venv/bin/python scripts/serve_board.py</code>, then hub <strong><code>http://127.0.0.1:8765/index.html</code></strong> or this page <strong><code>http://127.0.0.1:8765/focus.html</code></strong> (port may differ). Do not double‑click this HTML file; <code>board-data.json</code> will not load over <code>file://</code>. Picks: <code>backlog-daily-focus-v1</code>. New tasks: <code>backlog-board-custom-cards-v1</code>.</p>
+  </header>
+
+  <main class="focus-main">
+    <div class="focus-toolbar">
+      <label for="focus-date">Day</label>
+      <input type="date" id="focus-date" autocomplete="off" />
+      <button type="button" class="primary" id="btn-save-focus">Save focus for this day</button>
+      <span id="focus-save-status" class="focus-save-status" aria-live="polite"></span>
+    </div>
+
+    <div class="focus-columns">
+      <section class="focus-panel focus-panel--pool" aria-labelledby="in-progress-heading">
+        <h2 id="in-progress-heading">In progress — pick for today</h2>
+        <p class="focus-panel-lead">Tick tasks for today's list; click a title to open the same editor as the board (status, description, notes, etc.). Each new calendar day, unfinished picks from yesterday that are still <strong>In progress</strong> are added to today automatically.</p>
+        <div id="in-progress-list"></div>
+      </section>
+
+      <section class="focus-panel focus-panel--working" aria-labelledby="working-heading">
+        <div class="focus-working-head">
+          <h2 id="working-heading">Working on today</h2>
+          <span id="focus-working-count" class="focus-working-count" aria-live="polite"></span>
+        </div>
+        <p class="focus-panel-lead focus-panel-lead--muted">Tasks you tick are saved with <strong>Save focus for this day</strong>. Items rolled in from yesterday are saved as soon as they appear.</p>
+        <div id="focus-selected-summary" class="focus-working-list"></div>
+      </section>
+    </div>
+  </main>
+
+  <div id="modal-backdrop" class="modal-backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-dialog-heading">
+      <div class="modal-head">
+        <h2 id="modal-dialog-heading">Edit card</h2>
+      </div>
+      <div class="modal-body">
+        <label for="modal-title-input">Title</label>
+        <input type="text" id="modal-title-input" class="modal-title-input" autocomplete="off" placeholder="Card title" />
+
+        <label for="modal-front">Label (front)</label>
+        <select id="modal-front" autocomplete="off"></select>
+
+        <label for="modal-priority">Priority</label>
+        <select id="modal-priority" autocomplete="off">
+          <option value="critical">Critical</option>
+          <option value="urgent">Urgent</option>
+          <option value="medium">Medium</option>
+          <option value="backlog">Low</option>
+          <option value="next_steps">Next step</option>
+        </select>
+
+        <label for="modal-status">Status (workflow)</label>
+        <select id="modal-status" autocomplete="off">
+          <option value="backlog">Backlog</option>
+          <option value="selected_for_development">Selected for development</option>
+          <option value="in_progress">In progress</option>
+          <option value="in_review">In review</option>
+          <option value="blocked">Blocked</option>
+          <option value="done">Done</option>
+          <option value="canceled">Canceled</option>
+        </select>
+
+        <label for="modal-description">Description</label>
+        <textarea id="modal-description" rows="6" autocomplete="off"></textarea>
+
+        <label for="modal-dod">Definition of done</label>
+        <textarea id="modal-dod" rows="3" autocomplete="off"></textarea>
+
+        <label for="modal-due">Due date</label>
+        <input type="date" id="modal-due" autocomplete="off" />
+
+        <label for="modal-context">Context (local notes only)</label>
+        <textarea id="modal-context" rows="3" placeholder="Not synced anywhere — your working notes" autocomplete="off"></textarea>
+
+        <label>Links &amp; sources</label>
+        <div id="modal-links" class="links"></div>
+      </div>
+      <div class="modal-foot">
+        <button type="button" id="btn-modal-reset-desc">Reset description to source</button>
+        <button type="button" class="danger" id="btn-modal-reset-all">Reset all local edits</button>
+        <button type="button" class="danger" id="btn-modal-remove-from-board">Remove from board…</button>
+        <button type="button" id="btn-modal-close">Cancel</button>
+        <button type="button" class="primary" id="btn-modal-save">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="add-modal-backdrop" class="modal-backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="add-modal-title">
+      <div class="modal-head">
+        <h2 id="add-modal-title">Add task</h2>
+      </div>
+      <div class="modal-body">
+        <label for="add-title">Title</label>
+        <input type="text" id="add-title" autocomplete="off" placeholder="Short title" />
+
+        <label for="add-description">Description</label>
+        <textarea id="add-description" rows="4" autocomplete="off"></textarea>
+
+        <label for="add-front">Label (front)</label>
+        <select id="add-front" autocomplete="off"></select>
+
+        <label for="add-priority">Priority</label>
+        <select id="add-priority" autocomplete="off">
+          <option value="critical">Critical</option>
+          <option value="urgent" selected>Urgent</option>
+          <option value="medium">Medium</option>
+          <option value="backlog">Low</option>
+          <option value="next_steps">Next step</option>
+        </select>
+
+        <label for="add-status">Status</label>
+        <select id="add-status" autocomplete="off">
+          <option value="backlog">Backlog</option>
+          <option value="selected_for_development">Selected for development</option>
+          <option value="in_progress" selected>In progress</option>
+          <option value="in_review">In review</option>
+          <option value="blocked">Blocked</option>
+          <option value="done">Done</option>
+          <option value="canceled">Canceled</option>
+        </select>
+
+        <label for="add-dod">Definition of done (optional)</label>
+        <textarea id="add-dod" rows="2" autocomplete="off"></textarea>
+
+        <label for="add-people">People (optional, comma-separated)</label>
+        <input type="text" id="add-people" autocomplete="off" placeholder="Name, Name" />
+      </div>
+      <div class="modal-foot">
+        <button type="button" id="btn-add-cancel">Cancel</button>
+        <button type="button" class="primary" id="btn-add-save">Add task</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="backlog_shared.js" defer></script>
+  <script src="backlog_card_editor.js?v=1" defer></script>
+  <script src="focus_app.js?v=5" defer></script>
+</body>
+</html>
