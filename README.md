@@ -1,5 +1,7 @@
 # Personal backlog (YAML + board)
 
+**Git remote:** [github.com/JacquePonce/jacque-backlog-board](https://github.com/JacquePonce/jacque-backlog-board) (private — `git push` / `git pull` from `troy-beta/backlog`).
+
 ## Where to run commands
 
 This folder is **not** in your home directory. On Jacqueline’s machine it is:
