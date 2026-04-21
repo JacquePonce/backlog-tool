@@ -21,7 +21,6 @@
         <span class="btn-add-card-label">New card</span>
       </button>
     </div>
-    <p class="sub"><strong>Do not open this file from Finder/Explorer</strong> (double‑click) — the board will stay blank because browsers block loading <code>board-data.json</code> over <code>file://</code>. From the <code>backlog</code> folder run <code>.venv/bin/python scripts/serve_board.py</code> and open <strong><code>http://127.0.0.1:8765/index.html</code></strong> (hub; port may differ — check the terminal). Regenerate data with <code>scripts/render_board.py</code> or <code>scripts/refresh_from_jira.py</code> as needed. <strong>New card</strong> tasks are stored in this browser — always use the same host (e.g. <code>127.0.0.1</code> vs <code>localhost</code> are different storage).</p>
     <nav class="view-tabs" aria-label="Board layout">
       <button type="button" class="view-tab is-active" data-board-view="priority" aria-current="page">By priority</button>
       <button type="button" class="view-tab" data-board-view="labels">By label</button>
