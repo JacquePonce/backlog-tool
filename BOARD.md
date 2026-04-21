@@ -1708,6 +1708,990 @@ python scripts/render_board.py
 - **description:** [Jira · Backlog]
 - **source (jira):** [PROMT-58](https://nubank.atlassian.net/browse/PROMT-58)
 
+#### Confluence reply: Beta - Welcome Testers — Thiago Andrade
+
+- **id:** `cfl-264899363154-265063563593`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Welcome Testers · Thiago Andrade]
+  
+  Those are going to be automated, right?
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Welcome Testers (comment 265063563593)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264899363154/Beta+-+Welcome+Testers?focusedCommentId=265063563593)
+
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Thiago Andrade
+
+- **id:** `cfl-264987510474-264993211167`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Go/Non-Go & Guidelines · Thiago Andrade]
+  
+  I think we can align about the 3 scenarios that we have on the "Other" category. It might be ok if they are not validated in Beta
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 264993211167)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=264993211167)
+
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Thiago Andrade
+
+- **id:** `cfl-264987510474-264993833767`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Go/Non-Go & Guidelines · Thiago Andrade]
+  
+  Should we add something related to risks mapped on NP&F and making sure all High/Critical are also closed before F&F?
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 264993833767)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=264993833767)
+
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Thiago Andrade
+
+- **id:** `cfl-264987510474-264993964655`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Go/Non-Go & Guidelines · Thiago Andrade]
+  
+  Should we add lead reports generation here as well?
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 264993964655)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=264993964655)
+
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Thiago Andrade
+
+- **id:** `cfl-264987510474-264992457361`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Go/Non-Go & Guidelines · Thiago Andrade]
+  
+  Changes in the cycle length of the testers should also not count, right?
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 264992457361)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=264992457361)
+
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Thiago Andrade
+
+- **id:** `cfl-264987510474-264993997469`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Go/Non-Go & Guidelines · Thiago Andrade]
+  
+  I think we can add something related to the App. App crashing, critical flow not working, etc.
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 264993997469)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=264993997469)
+
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Thiago Andrade
+
+- **id:** `cfl-264987510474-264992391978`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Go/Non-Go & Guidelines · Thiago Andrade]
+  
+  In bill pdf or app screens
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 264992391978)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=264992391978)
+
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Thiago Andrade
+
+- **id:** `cfl-264987510474-264992457377`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Go/Non-Go & Guidelines · Thiago Andrade]
+  
+  I think we should look from a customer perspective as well. Does it harm the customer in any way? For example if for an error we make them late/revolving, etc...
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 264992457377)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=264992457377)
+
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Abbishek
+
+- **id:** `cfl-264987510474-265017723281`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Go/Non-Go & Guidelines · Abbishek]
+  
+  @Jacqueline Ponce @Giovanna Perez this seems like a blocker, no?
+- **people:** Abbishek
+- **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 265017723281)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=265017723281)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Abbishek (id 63723)
+
+- **id:** `cfl-265001370171-265018802288`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Abbishek (id 63723)]
+  
+  @Jacqueline Ponce shouldn't this be 100%? What are the data-points in mind which prevents us to target 100%?
+- **people:** Abbishek (id 63723)
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265018802288)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265018802288)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Abbishek (id 63723)
+
+- **id:** `cfl-265001370171-265019031595`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Abbishek (id 63723)]
+  
+  @Jacqueline Ponce With an understanding that any manual intervention done at any step (ex. in lateness / 2nd lateness) will require us to do the fix and test the scenario again. Is that the approach we are adopting. Should we instead change based on the "Testing Priority" meaning all High and Medium being 100% HOTW?
+- **people:** Abbishek (id 63723)
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265019031595)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265019031595)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Abbishek (id 63723)
+
+- **id:** `cfl-265001370171-265015985828`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Abbishek (id 63723)]
+  
+  Should we also add the tool being built to validate the calculations as one of the sources against which the validations will be done?
+- **people:** Abbishek (id 63723)
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265015985828)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265015985828)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Abbishek (id 63723)
+
+- **id:** `cfl-265001370171-265017590212`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Abbishek (id 63723)]
+  
+  Lets discuss this with @Davi Melazo as this will drive how we align with partner teams to resolve issues
+- **people:** Abbishek (id 63723)
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265017590212)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265017590212)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Thiago Andrade
+
+- **id:** `cfl-265001370171-265029091443`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Thiago Andrade]
+  
+  This is the outstanding balance, right?
+- **people:** Thiago Andrade
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265029091443)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265029091443)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Thiago Andrade
+
+- **id:** `cfl-265001370171-265029943492`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Thiago Andrade]
+  
+  What would be the SOT for this?
+- **people:** Thiago Andrade
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265029943492)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265029943492)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Thiago Andrade
+
+- **id:** `cfl-265001370171-265028796525`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Thiago Andrade]
+  
+  This is like a submetric from 0, right? If we achieve 0 we automatically achieve 4, right? I'm wondering if we need both since the target overlaps and the SOT is similar.
+- **people:** Thiago Andrade
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265028796525)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265028796525)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Thiago Andrade
+
+- **id:** `cfl-265001370171-265029550184`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Thiago Andrade]
+  
+  This is also very similar to 2 - do we need both?
+- **people:** Thiago Andrade
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265029550184)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265029550184)
+
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — id 60ad23
+
+- **id:** `cfl-265001370171-265060679756`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Milestone 2 - Source of Truth + How to measure · id 60ad23]
+  
+  Who is going to define this? CC Factory during the triaging process?
+- **people:** id 60ad23
+- **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265060679756)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265060679756)
+
+#### Confluence reply: Beta - Metrics — Thiago Andrade
+
+- **id:** `cfl-264701673940-264710948640`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Metrics · Thiago Andrade]
+  
+  Isn't that too high, this means no errors at all
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Metrics (comment 264710948640)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264701673940/Beta+-+Metrics?focusedCommentId=264710948640)
+
+#### Confluence reply: Beta - Metrics — Thiago Andrade
+
+- **id:** `cfl-264701673940-264712193359`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Metrics · Thiago Andrade]
+  
+  Are we planning to track the metrics as separated or like a funnel view of something like onboarding -> activation -> spend?
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Metrics (comment 264712193359)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264701673940/Beta+-+Metrics?focusedCommentId=264712193359)
+
+#### Confluence reply: Beta - Metrics — Thiago Andrade
+
+- **id:** `cfl-264701673940-264712684714`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Metrics · Thiago Andrade]
+  
+  Are we also to define who should have access to the monitoring or should it be opened for everyone?
+- **people:** Thiago Andrade
+- **source (confluence):** [Beta - Metrics (comment 264712684714)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264701673940/Beta+-+Metrics?focusedCommentId=264712684714)
+
+#### Confluence reply: Alpha - Testers Round 2 — Abbishek (id 63723)
+
+- **id:** `cfl-264902052681-264902541567`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Alpha - Testers Round 2 · Abbishek (id 63723)]
+  
+  remove this
+- **people:** Abbishek (id 63723)
+- **source (confluence):** [Alpha - Testers Round 2 (comment 264902541567)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264902052681/Alpha+-+Testers+Round+2?focusedCommentId=264902541567)
+
+#### Confluence reply: Alpha - Testers Round 2 — Abbishek (id 63723)
+
+- **id:** `cfl-264902052681-264901233331`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Alpha - Testers Round 2 · Abbishek (id 63723)]
+  
+  @Jacqueline Ponce We are not tied to device
+- **people:** Abbishek (id 63723)
+- **source (confluence):** [Alpha - Testers Round 2 (comment 264901233331)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264902052681/Alpha+-+Testers+Round+2?focusedCommentId=264901233331)
+
+#### Confluence reply: Alpha - Testers Round 2 — Abbishek (id 63723)
+
+- **id:** `cfl-264902052681-264901001488`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Alpha - Testers Round 2 · Abbishek (id 63723)]
+  
+  All this is required only for testers who are fresh like me and Tim. The rest i believe have GBA account so they are already KYC'ed and will just cross-sell
+- **people:** Abbishek (id 63723)
+- **source (confluence):** [Alpha - Testers Round 2 (comment 264901001488)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264902052681/Alpha+-+Testers+Round+2?focusedCommentId=264901001488)
+
+#### Confluence reply: [PRD Lead Report] Financial Adjustments — id 617027 (Luca?)
+
+- **id:** `cfl-264816722262-264884453491`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Financial Adjustments · id 617027 (Luca?)]
+  
+  if we had 50 here, it would be reduced as well, right? Maybe it would be better example if it were 50 here initially
+- **people:** id 617027 (Luca?)
+- **source (confluence):** [[PRD Lead Report] Financial Adjustments (comment 264884453491)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264816722262/PRD+Lead+Report+Financial+Adjustments?focusedCommentId=264884453491)
+
+#### Confluence reply: Experimentation Guideline — id 617027
+
+- **id:** `cfl-263776699153-264641282678`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Experimentation Guideline · id 617027]
+  
+  purchase_refund?
+- **people:** id 617027
+- **source (confluence):** [Experimentation Guideline (comment 264641282678)](https://nubank.atlassian.net/wiki/spaces/CC/pages/263776699153/Experimentation+Guideline?focusedCommentId=264641282678)
+
+#### Confluence reply: Experimentation Guideline — id 617027
+
+- **id:** `cfl-263776699153-264641708681`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Experimentation Guideline · id 617027]
+  
+  What would be the case where we can use "reversed" value here?
+- **people:** id 617027
+- **source (confluence):** [Experimentation Guideline (comment 264641708681)](https://nubank.atlassian.net/wiki/spaces/CC/pages/263776699153/Experimentation+Guideline?focusedCommentId=264641708681)
+
+#### Confluence reply: Experimentation Guideline — id 617027
+
+- **id:** `cfl-263776699153-264643084850`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Experimentation Guideline · id 617027]
+  
+  Maybe we should also cover the timing of the reversal - in our case before or after the purchase of receivables might be an important factor.
+- **people:** id 617027
+- **source (confluence):** [Experimentation Guideline (comment 264643084850)](https://nubank.atlassian.net/wiki/spaces/CC/pages/263776699153/Experimentation+Guideline?focusedCommentId=264643084850)
+
+#### Confluence reply: AWS Cost - Crypto BU — id 6061d6
+
+- **id:** `cfl-262728810713-264618901519`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · AWS Cost - Crypto BU · id 6061d6]
+  
+  What about expiration of Offers?
+- **people:** id 6061d6
+- **source (confluence):** [AWS Cost - Crypto BU (comment 264618901519)](https://nubank.atlassian.net/wiki/spaces/CC/pages/262728810713/AWS+Cost+-+Crypto+BU?focusedCommentId=264618901519)
+
+#### Confluence reply: Collateral Report — id 5fb458
+
+- **id:** `cfl-264543305797-264229818222`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Collateral Report · id 5fb458]
+  
+  Threshold Reviewed. 27/05/2025
+- **people:** id 5fb458
+- **source (confluence):** [Collateral Report (comment 264229818222)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264543305797/Collateral+Report?focusedCommentId=264229818222)
+
+#### Confluence reply: Sponsor Bank Sprint 24 (Bloco do sponsor) — id 5d7140
+
+- **id:** `cfl-264662882619-264622211485`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Sponsor Bank Sprint 24 (Bloco do sponsor) · id 5d7140]
+  
+  what happens if a person is late and makes more purchases?
+- **people:** id 5d7140
+- **source (confluence):** [Sponsor Bank Sprint 24 (Bloco do sponsor) (comment 264622211485)](https://nubank.atlassian.net/wiki/spaces/CCCB/pages/264662882619/Sponsor+Bank+Sprint+24+Bloco+do+sponsor?focusedCommentId=264622211485)
+
+#### Confluence reply: Sponsor Bank Sprint 24 (Bloco do sponsor) — id 5d7140
+
+- **id:** `cfl-264662882619-264620704140`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Sponsor Bank Sprint 24 (Bloco do sponsor) · id 5d7140]
+  
+  are these gonna always be zero for late fees?
+- **people:** id 5d7140
+- **source (confluence):** [Sponsor Bank Sprint 24 (Bloco do sponsor) (comment 264620704140)](https://nubank.atlassian.net/wiki/spaces/CCCB/pages/264662882619/Sponsor+Bank+Sprint+24+Bloco+do+sponsor?focusedCommentId=264620704140)
+
+#### Confluence reply: Sponsor Bank Sprint 24 (Bloco do sponsor) — id 5d56ca
+
+- **id:** `cfl-264662882619-264628830227`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Sponsor Bank Sprint 24 (Bloco do sponsor) · id 5d56ca]
+  
+  Should it be the photo on the due-date or the close-date?
+- **people:** id 5d56ca
+- **source (confluence):** [Sponsor Bank Sprint 24 (Bloco do sponsor) (comment 264628830227)](https://nubank.atlassian.net/wiki/spaces/CCCB/pages/264662882619/Sponsor+Bank+Sprint+24+Bloco+do+sponsor?focusedCommentId=264628830227)
+
+#### Confluence reply: Sponsor Bank Sprint 24 (Bloco do sponsor) — id 5d56ca
+
+- **id:** `cfl-264662882619-264629092421`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Sponsor Bank Sprint 24 (Bloco do sponsor) · id 5d56ca]
+  
+  What would happen in this case. Does it change the reports?
+- **people:** id 5d56ca
+- **source (confluence):** [Sponsor Bank Sprint 24 (Bloco do sponsor) (comment 264629092421)](https://nubank.atlassian.net/wiki/spaces/CCCB/pages/264662882619/Sponsor+Bank+Sprint+24+Bloco+do+sponsor?focusedCommentId=264629092421)
+
+#### Confluence reply: Sponsor Bank Sprint 24 (Bloco do sponsor) — id 5d56ca
+
+- **id:** `cfl-264662882619-264637939744`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Sponsor Bank Sprint 24 (Bloco do sponsor) · id 5d56ca]
+  
+  Are those fields related to the minimum amount?
+- **people:** id 5d56ca
+- **source (confluence):** [Sponsor Bank Sprint 24 (Bloco do sponsor) (comment 264637939744)](https://nubank.atlassian.net/wiki/spaces/CCCB/pages/264662882619/Sponsor+Bank+Sprint+24+Bloco+do+sponsor?focusedCommentId=264637939744)
+
+#### Confluence reply: [PRD Lead Report] Lateness — id 617027
+
+- **id:** `cfl-264545108299-264626307088`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Lateness · id 617027]
+  
+  Is this supposed to be only SB related? Or a centralized document with validations?
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Lateness (comment 264626307088)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264545108299/PRD+Lead+Report+Lateness?focusedCommentId=264626307088)
+
+#### Confluence reply: [PRD Lead Report] Lateness — id 617027
+
+- **id:** `cfl-264545108299-264625062337`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Lateness · id 617027]
+  
+  will we have a transaction-id at this point? considering not all transactions are purchases, maybe we need something more generic like "correlation-id"
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Lateness (comment 264625062337)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264545108299/PRD+Lead+Report+Lateness?focusedCommentId=264625062337)
+
+#### Confluence reply: [PRD Lead Report] Lateness — id 617027
+
+- **id:** `cfl-264545108299-264624931475`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Lateness · id 617027]
+  
+  not sure we need to expose the sales request and balances report here - we can infer it by transaction type + transactions report impact
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Lateness (comment 264624931475)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264545108299/PRD+Lead+Report+Lateness?focusedCommentId=264624931475)
+
+#### Confluence reply: [PRD Lead Report] Lateness — id 617027
+
+- **id:** `cfl-264545108299-264624701706`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Lateness · id 617027]
+  
+  notified how?
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Lateness (comment 264624701706)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264545108299/PRD+Lead+Report+Lateness?focusedCommentId=264624701706)
+
+#### Confluence reply: [PRD Lead Report] Lateness — id 617027
+
+- **id:** `cfl-264545108299-264626208826`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Lateness · id 617027]
+  
+  what does risk level mean here?
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Lateness (comment 264626208826)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264545108299/PRD+Lead+Report+Lateness?focusedCommentId=264626208826)
+
+#### Confluence reply: [PRD Lead Report] Lateness — id 617027
+
+- **id:** `cfl-264545108299-264661762246`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Lateness · id 617027]
+  
+  This would be only staging + sandbox related, right?
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Lateness (comment 264661762246)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264545108299/PRD+Lead+Report+Lateness?focusedCommentId=264661762246)
+
+#### Confluence reply: [PRD Lead Report] Lateness — id 617027
+
+- **id:** `cfl-264545108299-264661598380`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Lateness · id 617027]
+  
+  Considering the differences in between the 2 requests, I'm wondering if it would be better to separate them by environment - one, for staging + sandbox that will optionally include the rollout inclusion...
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Lateness (comment 264661598380)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264545108299/PRD+Lead+Report+Lateness?focusedCommentId=264661598380)
+
+#### Confluence reply: Nubank vs Lead — id 5d7140
+
+- **id:** `cfl-264389558366-264509260196`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Nubank vs Lead · id 5d7140]
+  
+  Need to make it a bit more 5yo friendly. Imagine that you're explaining to me how to read the messages below, circle what I'm actually in need to pay attention and what I need to do with it
+- **people:** id 5d7140
+- **source (confluence):** [Nubank vs Lead (comment 264509260196)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264389558366/Nubank+vs+Lead?focusedCommentId=264509260196)
+
+#### Confluence reply: Nubank vs Lead — id 617027
+
+- **id:** `cfl-264389558366-264825864273`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Nubank vs Lead · id 617027]
+  
+  here is expected not to be 0, right?
+- **people:** id 617027
+- **source (confluence):** [Nubank vs Lead (comment 264825864273)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264389558366/Nubank+vs+Lead?focusedCommentId=264825864273)
+
+#### Confluence reply: CC Lead Reports — id 618d44
+
+- **id:** `cfl-264313608275-264314328473`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · CC Lead Reports · id 618d44]
+  
+  For the Alpha all the customers will be account_holder_type = `consumer`
+- **people:** id 618d44
+- **source (confluence):** [CC Lead Reports (comment 264314328473)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264313608275/CC+Lead+Reports?focusedCommentId=264314328473)
+
+#### Confluence reply: CC Lead Reports — id 618d44
+
+- **id:** `cfl-264313608275-264315471389`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · CC Lead Reports · id 618d44]
+  
+  For Alpha the value will be null, because everyone will be approved
+- **people:** id 618d44
+- **source (confluence):** [CC Lead Reports (comment 264315471389)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264313608275/CC+Lead+Reports?focusedCommentId=264315471389)
+
+#### Confluence reply: CC Lead Reports — id 618d44
+
+- **id:** `cfl-264313608275-264315342776`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · CC Lead Reports · id 618d44]
+  
+  For Alpha the value will be null, because everyone will be approved
+- **people:** id 618d44
+- **source (confluence):** [CC Lead Reports (comment 264315342776)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264313608275/CC+Lead+Reports?focusedCommentId=264315342776)
+
+#### Confluence reply: CC Lead Reports — id 618d44
+
+- **id:** `cfl-264313608275-264315535837`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · CC Lead Reports · id 618d44]
+  
+  For Alpha the value will be null, because everyone will be approved
+- **people:** id 618d44
+- **source (confluence):** [CC Lead Reports (comment 264315535837)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264313608275/CC+Lead+Reports?focusedCommentId=264315535837)
+
+#### Confluence reply: CC Lead Reports — id 618d44
+
+- **id:** `cfl-264313608275-264315569270`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · CC Lead Reports · id 618d44]
+  
+  For Alpha the value will be null, because everyone will be approved
+- **people:** id 618d44
+- **source (confluence):** [CC Lead Reports (comment 264315569270)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264313608275/CC+Lead+Reports?focusedCommentId=264315569270)
+
+#### Confluence reply: CC Lead Reports — id 618d44
+
+- **id:** `cfl-264313608275-264315471646`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · CC Lead Reports · id 618d44]
+  
+  For Alpha the value will be null, because everyone will be approved
+- **people:** id 618d44
+- **source (confluence):** [CC Lead Reports (comment 264315471646)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264313608275/CC+Lead+Reports?focusedCommentId=264315471646)
+
+#### Confluence reply: CC Lead Reports — id 618d44
+
+- **id:** `cfl-264313608275-264315343259`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · CC Lead Reports · id 618d44]
+  
+  For Alpha the value will be null, because everyone will be approved
+- **people:** id 618d44
+- **source (confluence):** [CC Lead Reports (comment 264315343259)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264313608275/CC+Lead+Reports?focusedCommentId=264315343259)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264530659077`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  An ACH payment refers to a payment realized through ACH rails. Two ways: Originated Credit (ACH Pull) / Received Credit (ACH Push)...
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264530659077)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264530659077)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264534295966`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  Mechanism from ACH Originated Credit (ACH Pull)
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264534295966)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264534295966)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264532951829`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  This table is a bit confusing. I think we can leverage the table from this material...
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264532951829)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264532951829)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264533705299`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  I think it's important to highlight that, as we will have late fees on beta, we will potentially have payments amortizing fee amounts. This will not be null.
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264533705299)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264533705299)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264535639728`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  I think it's important to highlight that, as we will have interest on beta, we will potentially have payments amortizing interest amounts. This will not be null.
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264535639728)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264535639728)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264534065744`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  I think it's important to highlight that, as we will have refunds on beta, we will potentially have payments and credits coming from PTP. Need logic to differ payments from credits.
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264534065744)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264534065744)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264534163976`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  How will this be hardcoded? how will we differ external_transfer from ach payments here?
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264534163976)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264534163976)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264533574331`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  Won't we have a transfer_id for this indeed? this seems odd, no?
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264533574331)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264533574331)
+
+#### Confluence reply: [PRD Lead Report] Cashback [WIP] — id 5d571a
+
+- **id:** `cfl-264542224816-264530692778`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Cashback [WIP] · id 5d571a]
+  
+  Would be good to highlight what is the logic here as a stand-alone document
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Cashback [WIP] (comment 264530692778)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264542224816/PRD+Lead+Report+Cashback+WIP?focusedCommentId=264530692778)
+
+#### Confluence reply: [PRD Lead Report] Revolving — id 617027
+
+- **id:** `cfl-264502247616-264502051089`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Revolving · id 617027]
+  
+  @Jacqueline Ponce esse aqui já está correto? card-id acho que não temos authorization amount tb não...
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Revolving (comment 264502051089)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264502247616/PRD+Lead+Report+Revolving?focusedCommentId=264502051089)
+
+#### Confluence reply: [PRD Lead Report] Revolving — id 617027
+
+- **id:** `cfl-264502247616-264545698008`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Revolving · id 617027]
+  
+  past due balance is a Late field, not revolving, no?
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Revolving (comment 264545698008)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264502247616/PRD+Lead+Report+Revolving?focusedCommentId=264545698008)
+
+#### Confluence reply: [PRD Lead Report] Revolving — id 617027
+
+- **id:** `cfl-264502247616-264545337721`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Revolving · id 617027]
+  
+  isn't this field used for revolving?
+- **people:** id 617027
+- **source (confluence):** [[PRD Lead Report] Revolving (comment 264545337721)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264502247616/PRD+Lead+Report+Revolving?focusedCommentId=264545337721)
+
+#### Confluence reply: [PRD Lead Report] Revolving — id 5d571a
+
+- **id:** `cfl-264502247616-264544092369`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Revolving · id 5d571a]
+  
+  Depending on how we're framing this discovery, this is a 'Late' consequence. If we focus on 'Interest' here, we'll have indeed something to represent on the past due balance...
+- **people:** id 5d571a
+- **source (confluence):** [[PRD Lead Report] Revolving (comment 264544092369)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264502247616/PRD+Lead+Report+Revolving?focusedCommentId=264544092369)
+
+#### Confluence reply: Sponsor Bank Reconciliation — id 5d7140
+
+- **id:** `cfl-264318978183-264509686013`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Sponsor Bank Reconciliation · id 5d7140]
+  
+  Can we add a link where we explain how the purchase of receivables happen? The goal would be to clear set the ground on why we need a reconciliation
+- **people:** id 5d7140
+- **source (confluence):** [Sponsor Bank Reconciliation (comment 264509686013)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264318978183/Sponsor+Bank+Reconciliation?focusedCommentId=264509686013)
+
+#### Confluence reply: Sponsor Bank Reconciliation — id 617027
+
+- **id:** `cfl-264318978183-264524726624`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Sponsor Bank Reconciliation · id 617027]
+  
+  this one I was thinking to have only controlinho for now
+- **people:** id 617027
+- **source (confluence):** [Sponsor Bank Reconciliation (comment 264524726624)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264318978183/Sponsor+Bank+Reconciliation?focusedCommentId=264524726624)
+
+#### Confluence reply: [PRD] Due Day Changes — Thiago Andrade
+
+- **id:** `cfl-264970305708-265029615668`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD] Due Day Changes · Thiago Andrade]
+  
+  Jacqueline Ponce
+- **people:** Thiago Andrade
+- **source (confluence):** [[PRD] Due Day Changes (comment 265029615668)](https://nubank.atlassian.net/wiki/spaces/C3PDA/pages/264970305708/PRD+Due+Day+Changes?focusedCommentId=265029615668)
+
+#### Confluence reply: Credit Card Beta Refund — Program/Ops Process Guide — Dharmesh Chheda
+
+- **id:** `cfl-265017098645-265026077065`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Credit Card Beta Refund — Program/Ops Process Guide · Dharmesh Chheda]
+  
+  Jacqueline Ponce   / Nadia Andrushchenko   to be consulted and validate if reporting changes needed in manual adjustments
+- **people:** Dharmesh Chheda
+- **source (confluence):** [Credit Card Beta Refund — Program/Ops Process Guide (comment 265026077065)](https://nubank.atlassian.net/wiki/spaces/~63723bc9213a315af344c753/pages/265017098645/Credit+Card+Beta+Refund+Program+Ops+Process+Guide?focusedCommentId=265026077065)
+
+#### Confluence reply: [Tech Assessment] - US - Sponsor Bank Integration — Felipe Rojas
+
+- **id:** `cfl-264947040631-265001501692`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [Tech Assessment] - US - Sponsor Bank Integration · Felipe Rojas]
+  
+  Jacqueline Ponce  from what I understood from lead documentation, it is expected that disbursement transactions have the earned cashback amount, but if we can report in separate line it would be better, do you know if we can do this?
+- **people:** Felipe Rojas
+- **source (confluence):** [[Tech Assessment] - US - Sponsor Bank Integration (comment 265001501692)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264947040631/Tech+Assessment+-+US+-+Sponsor+Bank+Integration?focusedCommentId=265001501692)
+
+#### Confluence reply: [PRD] Account Lifecycle - Fraud — Lucas Viotti
+
+- **id:** `cfl-264900641240-265004679177`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD] Account Lifecycle - Fraud · Lucas Viotti]
+  
+  Note to double check Jacqueline Ponce  from Lead’s documentation, if an account is reported as Closed, it cannot be re-opened at Lead.
+- **people:** Lucas Viotti
+- **source (confluence):** [[PRD] Account Lifecycle - Fraud (comment 265004679177)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264900641240/PRD+Account+Lifecycle+-+Fraud?focusedCommentId=265004679177)
+
+#### Confluence reply: [Tech Assessment] - US - Sponsor Bank Integration — Nadia Andrushchenko
+
+- **id:** `cfl-264947040631-264962474705`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [Tech Assessment] - US - Sponsor Bank Integration · Nadia Andrushchenko]
+  
+  Jacqueline Ponce  can we discuss further on the best way to implement the reports? It does not seem to be a good idea to couple the disbursement transactions report with cashback as it introduces an additional dependency, increasing the risk of recon mismatches
+- **people:** Nadia Andrushchenko
+- **source (confluence):** [[Tech Assessment] - US - Sponsor Bank Integration (comment 264962474705)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264947040631/Tech+Assessment+-+US+-+Sponsor+Bank+Integration?focusedCommentId=264962474705)
+
+#### Confluence reply: Beta - Welcome Testers — Dharmesh Chheda
+
+- **id:** `cfl-264899363154-264902344896`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Welcome Testers · Dharmesh Chheda]
+  
+  Jacqueline Ponce   this is Scaled Alpha Release
+- **people:** Dharmesh Chheda
+- **source (confluence):** [Beta - Welcome Testers (comment 264902344896)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264899363154/Beta+-+Welcome+Testers?focusedCommentId=264902344896)
+
+#### Confluence reply: Leadbank [WIP] — Luíza Simões
+
+- **id:** `cfl-264777269769-264779366856`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Leadbank [WIP] · Luíza Simões]
+  
+  Jacqueline Ponce , in case of cc transaction adjustments, where cashback needs to be partially or completely reverted, which transaction type should be used? c.c.: Luis Paula
+- **people:** Luíza Simões
+- **source (confluence):** [Leadbank [WIP] (comment 264779366856)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264777269769/Leadbank+WIP?focusedCommentId=264779366856)
+
+#### Confluence reply: Beta - Dependence Mapping — Nadia Andrushchenko
+
+- **id:** `cfl-264742502701-264753872997`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Dependence Mapping · Nadia Andrushchenko]
+  
+  Jacqueline Ponce
+- **people:** Nadia Andrushchenko
+- **source (confluence):** [Beta - Dependence Mapping (comment 264753872997)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264742502701/Beta+-+Dependence+Mapping?focusedCommentId=264753872997)
+
+#### Confluence reply: [Tech Assessment] Credit Card Manual Adjustments — Tiago Matos
+
+- **id:** `cfl-264667660324-264710849464`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [Tech Assessment] Credit Card Manual Adjustments · Tiago Matos]
+  
+  Jacqueline Ponce  Maybe we need to talk to better understand this operation.
+- **people:** Tiago Matos
+- **source (confluence):** [[Tech Assessment] Credit Card Manual Adjustments (comment 264710849464)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264667660324/Tech+Assessment+Credit+Card+Manual+Adjustments?focusedCommentId=264710849464)
+
+#### Confluence reply: Fast Trackers Proposal — Vitoria Previato
+
+- **id:** `cfl-264664711543-264712454360`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Fast Trackers Proposal · Vitoria Previato]
+  
+  We should be able to, aiming to always do it with a “clean&quot; scenario, like a customer without any outstanding balance (purchase, interest).    And AFAIK there are no constraints on Lead side, but can you confirm to make sure Jacqueline Ponce  ?
+- **people:** Vitoria Previato
+- **source (confluence):** [Fast Trackers Proposal (comment 264712454360)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264664711543/Fast+Trackers+Proposal?focusedCommentId=264712454360)
+
+#### Confluence reply: [Tech Assessment] Credit Card Manual Adjustments — Lucas Viotti
+
+- **id:** `cfl-264667660324-264679161899`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [Tech Assessment] Credit Card Manual Adjustments · Lucas Viotti]
+  
+  Yes. Jacqueline Ponce  can get you the details
+- **people:** Lucas Viotti
+- **source (confluence):** [[Tech Assessment] Credit Card Manual Adjustments (comment 264679161899)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264667660324/Tech+Assessment+Credit+Card+Manual+Adjustments?focusedCommentId=264679161899)
+
+#### Confluence reply: [PRD Lead Report] Lateness — Nadia Andrushchenko
+
+- **id:** `cfl-264545108299-264612544873`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD Lead Report] Lateness · Nadia Andrushchenko]
+  
+  Hey Jacqueline Ponce ! I have a few questions regarding Lead reporting dynamic Do we have to report late interest/fees daily? (since there&#39;s the past_due_days day count) I saw that the APR (Penalty APR) can change - are we going to have this use case? Is there a scenario where we block the customer after X days ...
+- **people:** Nadia Andrushchenko
+- **source (confluence):** [[PRD Lead Report] Lateness (comment 264612544873)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264545108299/PRD+Lead+Report+Lateness?focusedCommentId=264612544873)
+
+#### Confluence reply: Beta - Scope & Status — Nadia Andrushchenko
+
+- **id:** `cfl-264562606260-264603172966`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Beta - Scope & Status · Nadia Andrushchenko]
+  
+  Jacqueline Ponce  this is one we need to understand better, how it will work report wise.  We will need to report an application and an account (?), the flow might be different from what we have for the customers onboarding from 0.
+- **people:** Nadia Andrushchenko
+- **source (confluence):** [Beta - Scope & Status (comment 264603172966)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264562606260/Beta+-+Scope+Status?focusedCommentId=264603172966)
+
+#### Confluence reply: [PRD] Lead's Payment Liability — Joao Pereira
+
+- **id:** `cfl-264405880591-264494022756`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [PRD] Lead's Payment Liability · Joao Pereira]
+  
+  Jacqueline Ponce  Nadia Andrushchenko
+- **people:** Joao Pereira
+- **source (confluence):** [[PRD] Lead's Payment Liability (comment 264494022756)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264405880591/PRD+Lead+s+Payment+Liability?focusedCommentId=264494022756)
+
+#### Confluence reply: Sponsor Bank Sprint 18 — Davi Melazo
+
+- **id:** `cfl-264395589944-264404706717`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · Sponsor Bank Sprint 18 · Davi Melazo]
+  
+  Consider only the tasks https://nubank.atlassian.net/jira/software/c/projects/MRC/boards/9838/reports/sprint-retrospective?sprint=46529 Jacqueline Ponce  , is this how you were doing the calculations?
+- **people:** Davi Melazo
+- **source (confluence):** [Sponsor Bank Sprint 18 (comment 264404706717)](https://nubank.atlassian.net/wiki/spaces/CCCB/pages/264395589944/Sponsor+Bank+Sprint+18?focusedCommentId=264404706717)
+
+#### Confluence reply: [Intermediate Testing] Purchase of Receivables — Felipe Dalosto
+
+- **id:** `cfl-264387236774-264387432548`
+- **front:** `other`
+- **priority:** `urgent`
+- **description:**
+  [Confluence · [Intermediate Testing] Purchase of Receivables · Felipe Dalosto]
+  
+  Hey Jacqueline Ponce  !   That’s the description of what the Lead Orchestrator should do, can you review it please?
+- **people:** Felipe Dalosto
+- **source (confluence):** [[Intermediate Testing] Purchase of Receivables (comment 264387432548)](https://nubank.atlassian.net/wiki/spaces/C3PDA/pages/264387236774/Intermediate+Testing+Purchase+of+Receivables?focusedCommentId=264387432548)
+
 ## Selected for development
 
 #### [MRC-1898] Underwriting Policy

@@ -1,0 +1,4 @@
+{
+  "_comment": "Overwritten by the daily agent runbook. Shape: { events: [ { id, summary, start, end, attendees: [email], hangoutLink, notes_doc_url } ] }",
+  "events": []
+}

@@ -1,0 +1,4 @@
+{
+  "_comment": "Overwritten by the daily agent runbook. Shape: { threads: [ { channel_id, channel_type (im|mpim), participants: [displayName...], thread_ts, latest_ts, permalink, last_author, last_author_is_me, preview } ] }",
+  "threads": []
+}

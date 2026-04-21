@@ -1,0 +1,4 @@
+{
+  "_comment": "Overwritten by the daily agent runbook. Shape: { docs: [ { event_id, doc_id, url, title, fetched_at, action_items: [ { text, assignee_hint, language } ] } ] }",
+  "docs": []
+}
