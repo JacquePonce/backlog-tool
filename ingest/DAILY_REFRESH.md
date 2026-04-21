@@ -59,6 +59,17 @@ Channels: keep only channels whose name, split on `-`, contains any of `{troy, u
 4. Collapse consecutive messages from the same author in the same thread.
 5. **Write to** [`last_slack_dms.json`](last_slack_dms.json) — shape in `QUERY_PACKS.md` §2a.
 
+## Step 3b - Slack "Saved for later" / bookmarks
+
+Source: `plugin-slack-slack` (`slack_search_public_and_private`).
+
+1. `slack_search_public_and_private query="is:saved" sort="timestamp" sort_dir="desc" response_format="detailed" include_context=false limit=20`.
+2. Follow `pagination_info` cursors until `End of results`. Each page returns up to 20 hits.
+3. Parse each hit (channel id/name, author id/name, `Message_ts`, `Permalink`, `Text`) into the shape below. Derive `thread_ts` from the permalink's `thread_ts=` query param when present.
+4. **Write to** [`last_slack_saved.json`](last_slack_saved.json) — shape in `QUERY_PACKS.md` §2a.
+
+> Watermark: always do a full refresh for this feed (Slack does not expose a per-save timestamp). The driver de-dupes by stable id, so re-reading is safe and cheap (≈few dozen rows).
+
 ## Step 4 - Google Calendar + Gemini transcriptions
 
 Source: Google Workspace MCP (Calendar + Drive + Docs).
@@ -85,7 +96,7 @@ Source: Atlassian MCP (Confluence search + comments).
 
 ## Step 6 - Run the terminal command
 
-After all 4 staged JSONs are written:
+After all 5 staged JSONs are written (Jira + Slack mentions + Slack DMs + Slack saved + GCal/Gemini + Confluence):
 
 ```bash
 cd ~/Documents/cursor/troy-beta/backlog

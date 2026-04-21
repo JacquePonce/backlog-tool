@@ -1708,6 +1708,330 @@ python scripts/render_board.py
 - **description:** [Jira · Backlog]
 - **source (jira):** [PROMT-58](https://nubank.atlassian.net/browse/PROMT-58)
 
+#### Slack saved #cc-factory-release-working-group: For CCF - @melazo - Have we identified controlinhos that we consider as in-sc...
+
+- **id:** `slack-saved-C09EYRVBW10-1769034543.664299`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #cc-factory-release-working-group · Dharmesh Chheda]
+  
+  For CCF - @melazo - Have we identified controlinhos that we consider as in-scope for Beta? I see that we have one for CCF related to "transactions that were not reported to lead-ledger" can you share what is in the pipe, if any? Happy to talk about this tomorrow during our 1-1 or
+- **people:** Dharmesh Chheda
+- **source (slack):** [saved #cc-factory-release-working-group 1769034543.664299](https://nubank.slack.com/archives/C09EYRVBW10/p1769034543664299?thread_ts=1769034145.400019&cid=C09EYRVBW10)
+
+#### Slack saved #cip-recon-updates: @Nath @erica @Viotti @Marco Carvalho @Johnny - Operational flow of USD purcha...
+
+- **id:** `slack-saved-C094Q1775BR-1760109736.809889`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #cip-recon-updates · Luana K. Perin]
+  
+  @Nath @erica @Viotti @Marco Carvalho @Johnny - Operational flow of USD purchase, see if you're able to access this video: https://drive.google.com/drive/folders/1uavZP0v3Xhsw7yRUG5uH2-T6z1oKvToB
+- **people:** Luana K. Perin
+- **source (slack):** [saved #cip-recon-updates 1760109736.809889](https://nubank.slack.com/archives/C094Q1775BR/p1760109736809889?thread_ts=1760022239.749609&cid=C094Q1775BR)
+
+#### Slack saved #troy-cc-cycle-taskforce: Can you correct me if I understood correctly @simoes / @michael? When a CC cu...
+
+- **id:** `slack-saved-C099YKBP7GC-1755724051.996889`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #troy-cc-cycle-taskforce · Lucas Viotti]
+  
+  Can you correct me if I understood correctly @simoes / @michael? When a CC customer goes into the bill pay flow and selects to pay with ACH, pulling the funds from another bank, CC can leverage lead-ledger to send the ACH transaction into the NACHA creation by Lead. Lead ledger t
+- **people:** Lucas Viotti
+- **source (slack):** [saved #troy-cc-cycle-taskforce 1755724051.996889](https://nubank.slack.com/archives/C099YKBP7GC/p1755724051996889?thread_ts=1755697863.181889&cid=C099YKBP7GC)
+
+#### Slack saved #us-core-banking: Converting the T112 network file (Mastercard IPM ISO-8583) to a CSV file for ...
+
+- **id:** `slack-saved-C056W18KK3P-1754572715.641089`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-core-banking · Bruno Freire]
+  
+  Converting the T112 network file (Mastercard IPM ISO-8583) to a CSV file for Lead. Team, creating this thread to consolidate the parallel discussions on the network file issue. TLDR: To test debit cards in production for Troy, we must submit a network file to Lead. Lead requires
+- **people:** Bruno Freire
+- **source (slack):** [saved #us-core-banking 1754572715.641089](https://nubank.enterprise.slack.com/archives/C056W18KK3P/p1754572715641089?thread_ts=1754572715.641089&cid=C056W18KK3P)
+
+#### Slack saved #ai-superpower-at-nu: NuPay - Horizon's Internal Conciliation - AI First. Horizon's Internal Concil...
+
+- **id:** `slack-saved-C08R62J83K2-1754397831.054809`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #ai-superpower-at-nu · Julia Ramos]
+  
+  NuPay - Horizon's Internal Conciliation - AI First. Horizon's Internal Conciliation is an automated reconciliation system that ensures data consistency across transactional, receivables registration, and settlement flows between NuPay's internal systems (SpinPay-Api, Axe, Chamber
+- **people:** Julia Ramos
+- **source (slack):** [saved #ai-superpower-at-nu 1754397831.054809](https://nubank.slack.com/archives/C08R62J83K2/p1754397831054809?thread_ts=1754397831.054809&cid=C08R62J83K2)
+
+#### Slack saved #ext-klaros-nu: Grace Period
+
+- **id:** `slack-saved-C07EPTTAJJH-1750179321.430439`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #ext-klaros-nu · Luíza Simões]
+  
+  Grace Period
+- **people:** Luíza Simões
+- **source (slack):** [saved #ext-klaros-nu 1750179321.430439](https://nubank.slack.com/archives/C07EPTTAJJH/p1750179321430439?thread_ts=1750179321.430439&cid=C07EPTTAJJH)
+
+#### Slack saved #us-working-team: Adverse Action, Credit Reporting, MLA. Hi @Viotti! I'm thinking through Lendi...
+
+- **id:** `slack-saved-C07KD9QAV5L-1750082405.129639`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-working-team · João Almeida]
+  
+  Adverse Action, Credit Reporting, MLA. Hi @Viotti! I'm thinking through Lending for Troy and was wondering how we were thinking of tackling capabilities that seem like could be shared and needed for Credit Card and Lending.
+- **people:** João Almeida
+- **source (slack):** [saved #us-working-team 1750082405.129639](https://nubank.slack.com/archives/C07KD9QAV5L/p1750082405129639?thread_ts=1750082405.129639&cid=C07KD9QAV5L)
+
+#### Slack saved #us-defense: Disclosures Mapping
+
+- **id:** `slack-saved-C085G7WE76W-1749820396.727259`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-defense · Carolina Cardona]
+  
+  Disclosures Mapping
+- **people:** Carolina Cardona
+- **source (slack):** [saved #us-defense 1749820396.727259](https://nubank.slack.com/archives/C085G7WE76W/p1749820396727259?thread_ts=1749820396.727259&cid=C085G7WE76W)
+
+#### Slack saved #us-lead-integration: :reviewplease: ADR 9: Lead Program Shared File Creation - Google Docs. This A...
+
+- **id:** `slack-saved-C07QKK3JCLX-1749733519.721519`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-lead-integration · Breno Oliveira]
+  
+  :reviewplease: ADR 9: Lead Program Shared File Creation - Google Docs. This ADR specifies the contract for program shared files (Account and Card) creation as well as the allocation of responsibilities involved. It builds on ADR 7: Lead Program Independent File Creation. cc @simo
+- **people:** Breno Oliveira
+- **source (slack):** [saved #us-lead-integration 1749733519.721519](https://nubank.enterprise.slack.com/archives/C07QKK3JCLX/p1749733519721519?thread_ts=1749733519.721519&cid=C07QKK3JCLX)
+
+#### Slack saved #cc-platforms-pms: Lead reports and AEs :threads:
+
+- **id:** `slack-saved-C07SFPG83U0-1749646552.777299`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #cc-platforms-pms · Alan Scoralick]
+  
+  Lead reports and AEs :threads:
+- **people:** Alan Scoralick
+- **source (slack):** [saved #cc-platforms-pms 1749646552.777299](https://nubank.slack.com/archives/C07SFPG83U0/p1749646552777299?thread_ts=1749646552.777299&cid=C07SFPG83U0)
+
+#### Slack saved #cc-platforms-pms: Persisted data review by AEs. Hey folks! As you know, @isadorapimentel and @J...
+
+- **id:** `slack-saved-C07SFPG83U0-1749642769.101319`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #cc-platforms-pms · Alan Scoralick]
+  
+  Persisted data review by AEs. Hey folks! As you know, @isadorapimentel and @Jhasua joined our team as AEs (analytics engineers). We want to kick-off an effort to map, review and help define the data persisted in the databases of the systems that will compose the Destination Archi
+- **people:** Alan Scoralick
+- **source (slack):** [saved #cc-platforms-pms 1749642769.101319](https://nubank.slack.com/archives/C07SFPG83U0/p1749642769101319?thread_ts=1749642769.101319&cid=C07SFPG83U0)
+
+#### Slack saved #cc-platforms-pms: Hello everyone, We built this document with the accounting requirements relat...
+
+- **id:** `slack-saved-C07SFPG83U0-1749046314.834299`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #cc-platforms-pms · Leticia Bruxel]
+  
+  Hello everyone, We built this document with the accounting requirements related to Lead Integration (specially, when buying purchases from Lead). @felipedalosto since you're discussing within Credit-Core domain about the holder (changeParams!) and this is one of the requirements
+- **people:** Leticia Bruxel
+- **source (slack):** [saved #cc-platforms-pms 1749046314.834299](https://nubank.slack.com/archives/C07SFPG83U0/p1749046314834299?thread_ts=1749046303.718509&cid=C07SFPG83U0)
+
+#### Slack saved #us-lead-integration: Hellooo, @jacque.ponce Can u add me to the channel/thread where this question...
+
+- **id:** `slack-saved-C07QKK3JCLX-1748960129.026059`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-lead-integration · Leticia Bruxel]
+  
+  Hellooo, @jacque.ponce Can u add me to the channel/thread where this question is being addressed? The Balances that must be reported are the managerial ones, right? Which would mean that there is no need of accounting view when reporting to Lead. Also, do u have an ETA for the an
+- **people:** Leticia Bruxel
+- **source (slack):** [saved #us-lead-integration 1748960129.026059](https://nubank.enterprise.slack.com/archives/C07QKK3JCLX/p1748960129026059?thread_ts=1747940711.508809&cid=C07QKK3JCLX)
+
+#### Slack saved #temp-fair-lending-policy: Adverse Notices. The partner has provided feedback on our draft, and I need s...
+
+- **id:** `slack-saved-C08TR3PKC1W-1748895857.631679`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #temp-fair-lending-policy · Daniel Stivelberg]
+  
+  Adverse Notices. The partner has provided feedback on our draft, and I need support from the credit teams to address it. See the comments in the document on where help is needed. This task is overdue, so I kindly ask for your help in providing the necessary information to ensure
+- **people:** Daniel Stivelberg
+- **source (slack):** [saved #temp-fair-lending-policy 1748895857.631679](https://nubank.enterprise.slack.com/archives/C08TR3PKC1W/p1748895857631679?thread_ts=1748895857.631679&cid=C08TR3PKC1W)
+
+#### Slack saved #us-finance: Sponsor Bank - CC Funds Flow Contractual Fees
+
+- **id:** `slack-saved-C0788FKM74Y-1748869266.220419`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-finance · Lucas Viotti]
+  
+  Sponsor Bank - CC Funds Flow Contractual Fees
+- **people:** Lucas Viotti
+- **source (slack):** [saved #us-finance 1748869266.220419](https://nubank.slack.com/archives/C0788FKM74Y/p1748869266220419?thread_ts=1748869266.220419&cid=C0788FKM74Y)
+
+#### Slack saved #ext-klaros-nu: Policy and Procedure Description
+
+- **id:** `slack-saved-C07EPTTAJJH-1748559949.744509`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #ext-klaros-nu · Jacqueline Ponce]
+  
+  Policy and Procedure Description
+- **people:** Jacqueline Ponce
+- **source (slack):** [saved #ext-klaros-nu 1748559949.744509](https://nubank.slack.com/archives/C07EPTTAJJH/p1748559949744509?thread_ts=1748559949.744509&cid=C07EPTTAJJH)
+
+#### Slack saved #us-lead-integration: Staging vs Production environments - Test requirements to integrate with Lead...
+
+- **id:** `slack-saved-C07QKK3JCLX-1748535894.469359`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-lead-integration · Cristina Otto]
+  
+  Staging vs Production environments - Test requirements to integrate with Lead. Hey folks, I am working with folks on the Foundation team to map (and identify options to) any testing requirements that we might have with Lead that we will not be able to run in the Staging environme
+- **people:** Cristina Otto
+- **source (slack):** [saved #us-lead-integration 1748535894.469359](https://nubank.enterprise.slack.com/archives/C07QKK3JCLX/p1748535894469359?thread_ts=1748535894.469359&cid=C07QKK3JCLX)
+
+#### Slack saved #us-lead-integration: For the logic between Balance & Transaction, this is something that with @jac...
+
+- **id:** `slack-saved-C07QKK3JCLX-1748438680.302179`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-lead-integration · Lucas Viotti]
+  
+  For the logic between Balance & Transaction, this is something that with @jacque.ponce we will start looking at after we map internally the whole scope over the Receivables Purchase flow, which should be by June EOM. But by taking a look over discussions from GBA regarding this,
+- **people:** Lucas Viotti
+- **source (slack):** [saved #us-lead-integration 1748438680.302179](https://nubank.enterprise.slack.com/archives/C07QKK3JCLX/p1748438680302179?thread_ts=1746799362.603139&cid=C07QKK3JCLX)
+
+#### Slack saved #us-defense: Policy Drafting | Selecting the policies that we need Klaros support in draft...
+
+- **id:** `slack-saved-C085G7WE76W-1740141165.710859`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #us-defense · Arthur Cebollini]
+  
+  Policy Drafting | Selecting the policies that we need Klaros support in drafting. Hi @channel, we are now expanding Klaros's scope to include policy drafting on behalf of Nu. Call to action: I'd like to ask all "champions" to review the "Policy Drafting Selection" tab and indicat
+- **people:** Arthur Cebollini
+- **source (slack):** [saved #us-defense 1740141165.710859](https://nubank.slack.com/archives/C085G7WE76W/p1740141165710859?thread_ts=1740141165.710859&cid=C085G7WE76W)
+
+#### Slack saved #temp-matic-pol-migration: Timeline proposal. Hey team! For visibility, we have 2 options of timeline fo...
+
+- **id:** `slack-saved-C07F96Z9NDN-1728995895.547619`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #temp-matic-pol-migration · Ceres Rohana]
+  
+  Timeline proposal. Hey team! For visibility, we have 2 options of timeline for this project. We're moving forward with Option 2 (Starts development early Dec, communicate to customers early Jan or late Dec, and migrate on Jan 27th). cc @Pedro Lima @Elisa @jacque.ponce @iannes.pat
+- **people:** Ceres Rohana
+- **source (slack):** [saved #temp-matic-pol-migration 1728995895.547619](https://nubank.enterprise.slack.com/archives/C07F96Z9NDN/p1728995895547619)
+
+#### Slack saved #social-name-project: Oii @luiza reis, boa tarde, tudo bom? Quando é esperado que todas as migraçõe...
+
+- **id:** `slack-saved-C05HZJ385FB-1727286255.880049`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #social-name-project · Jonathan Silva]
+  
+  Oii @luiza reis, boa tarde, tudo bom? Quando é esperado que todas as migrações sejam finalizadas? :fyi: @Yuri @Luiz
+- **people:** Jonathan Silva
+- **source (slack):** [saved #social-name-project 1727286255.880049](https://nubank.slack.com/archives/C05HZJ385FB/p1727286255880049?thread_ts=1727278825.760799&cid=C05HZJ385FB)
+
+#### Slack saved #crypto-product-development: @fabio.masson Yes, we should have our own mechanism to improve our availabili...
+
+- **id:** `slack-saved-C02ETK8NF5K-1727285743.934069`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #crypto-product-development · Hernan Escola]
+  
+  @fabio.masson Yes, we should have our own mechanism to improve our availability, but it's a good idea to let them know this issue happen and affected us. Could you or anyone else that was involved on the investigation of these issue bring this problem to the responsible team?
+- **people:** Hernan Escola
+- **source (slack):** [saved #crypto-product-development 1727285743.934069](https://nubank.slack.com/archives/C02ETK8NF5K/p1727285743934069?thread_ts=1727224262.932359&cid=C02ETK8NF5K)
+
+#### Slack saved #crypto-sox-audit: Excellent, I appreciate and value the team's effort to keep the schedule, @ca...
+
+- **id:** `slack-saved-C066964C3GB-1727274847.394329`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #crypto-sox-audit · Jennifer Agg]
+  
+  Excellent, I appreciate and value the team's effort to keep the schedule, @camila. See you soon!
+- **people:** Jennifer Agg
+- **source (slack):** [saved #crypto-sox-audit 1727274847.394329](https://nubank.slack.com/archives/C066964C3GB/p1727274847394329?thread_ts=1727208450.988649&cid=C066964C3GB)
+
+#### Slack saved #crypto-ncn-redemption: morning team. In order to withdraw the money from Coinbase to JPM, we'll need...
+
+- **id:** `slack-saved-C07C288P7S7-1726838279.845159`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #crypto-ncn-redemption · Alessandro Hoss]
+  
+  morning team. In order to withdraw the money from Coinbase to JPM, we'll need to add a new config on crypto-monitoring. The way it supports withdrawals today is by informing an fx-provider (required field), which we won't have in this case. We can tweak that by adding a jpm confi
+- **people:** Alessandro Hoss
+- **source (slack):** [saved #crypto-ncn-redemption 1726838279.845159](https://nubank.enterprise.slack.com/archives/C07C288P7S7/p1726838279845159?thread_ts=1726838279.845159&cid=C07C288P7S7)
+
+#### Slack saved #crypto-controllership-finops-tax: Fala, @Rodrigo Costa @arthursilveira! Como estão? Apenas para alinharmos o CO...
+
+- **id:** `slack-saved-C02DDF150G7-1726581287.864779`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #crypto-controllership-finops-tax · Bianca Maria]
+  
+  Fala, @Rodrigo Costa @arthursilveira! Como estão? Apenas para alinharmos o COSIF, do ponto de vista contábil, qual seria o mais aplicável para a despesa de fee reduction?
+- **people:** Bianca Maria
+- **source (slack):** [saved #crypto-controllership-finops-tax 1726581287.864779](https://nubank.enterprise.slack.com/archives/C02DDF150G7/p1726581287864779?thread_ts=1724808568.451959&cid=C02DDF150G7)
+
+#### Slack saved #crypto-controllership-finops-tax: Fee Reduction :thread:
+
+- **id:** `slack-saved-C02DDF150G7-1724808568.451959`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #crypto-controllership-finops-tax · Matheus Morgado]
+  
+  Fee Reduction :thread:
+- **people:** Matheus Morgado
+- **source (slack):** [saved #crypto-controllership-finops-tax 1724808568.451959](https://nubank.enterprise.slack.com/archives/C02DDF150G7/p1724808568451959?thread_ts=1724808568.451959&cid=C02DDF150G7)
+
+#### Slack saved #crypto-product-development: Hello team, Reviving this old thread. We faced the same issue again. So I'm p...
+
+- **id:** `slack-saved-C02ETK8NF5K-1724710789.601559`
+- **front:** `other`
+- **priority:** `medium`
+- **description:**
+  [Slack saved · #crypto-product-development · Alessandro Hoss]
+  
+  Hello team, Reviving this old thread. We faced the same issue again. So I'm proposing to remove the admin endpoints that allow that inconsistency state on this PR. Please let me know wdyt, specially if you see some scenario where they could still be useful so we can discuss alter
+- **people:** Alessandro Hoss
+- **source (slack):** [saved #crypto-product-development 1724710789.601559](https://nubank.slack.com/archives/C02ETK8NF5K/p1724710789601559?thread_ts=1700519759.066259&cid=C02ETK8NF5K)
+
 #### Confluence reply: Beta - Welcome Testers — Thiago Andrade
 
 - **id:** `cfl-264899363154-265063563593`

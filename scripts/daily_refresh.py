@@ -156,7 +156,7 @@ def bump_sync_state(source_modules: list[str]) -> None:
     now_iso = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     source_to_keys = {
         "jira": ["jira"],
-        "slack": ["slack_mentions", "slack_dms"],
+        "slack": ["slack_mentions", "slack_dms", "slack_saved"],
         "gcal_gemini": ["gcal_gemini"],
         "confluence": ["confluence"],
     }

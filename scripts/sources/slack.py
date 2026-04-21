@@ -1,10 +1,14 @@
 """Slack adapter.
 
-Reads two MCP-staged JSON files and returns board items:
+Reads three MCP-staged JSON files and returns board items:
 
 - ``ingest/last_slack_mentions.json`` — ``@mention`` hits inside channels whose
   name matches the token-boundary rule ``{troy, us, da, ccf}``.
 - ``ingest/last_slack_dms.json`` — unread DM / MPIM threads involving the user.
+- ``ingest/last_slack_saved.json`` — messages the user flagged via Slack's
+  "Save for later" / bookmark feature (Slack search ``is:saved``). These are
+  not filtered by the token-boundary rule because the user explicitly opted
+  them in.
 
 JSON shapes documented in ``ingest/QUERY_PACKS.md`` (section 2a).
 """
@@ -55,6 +59,31 @@ def _mention_item(msg: dict) -> dict | None:
     }
 
 
+def _saved_item(msg: dict) -> dict | None:
+    channel_id = msg.get("channel_id") or ""
+    channel_name = msg.get("channel_name") or ""
+    ts = msg.get("ts") or ""
+    if not (channel_id and ts):
+        return None
+    snippet = _trim(msg.get("text_snippet") or msg.get("text"))
+    permalink = msg.get("permalink") or ""
+    author = msg.get("user_name") or msg.get("user") or "unknown"
+    first_line = (msg.get("text") or "").splitlines()[0] if msg.get("text") else ""
+    title_suffix = _trim(first_line, 80) or snippet or "Saved message"
+    return {
+        "id": f"slack-saved-{channel_id}-{ts}",
+        "title": f"Slack saved #{channel_name}: {title_suffix}",
+        "front": "other",
+        "status": "backlog",
+        "priority": "medium",
+        "people": [author] if author and author != "unknown" else [],
+        "sources": [
+            {"type": "slack", "url": permalink, "ref": f"saved #{channel_name} {ts}"},
+        ],
+        "description": f"[Slack saved · #{channel_name} · {author}]\n\n{snippet}",
+    }
+
+
 def _dm_item(thread: dict) -> dict | None:
     channel_id = thread.get("channel_id") or ""
     thread_ts = thread.get("thread_ts") or thread.get("latest_ts") or ""
@@ -97,6 +126,13 @@ def load_items(ingest_dir: Path) -> list[dict]:
         raw = json.loads(dms_path.read_text(encoding="utf-8"))
         for thread in raw.get("threads") or []:
             item = _dm_item(thread)
+            if item is not None:
+                items.append(item)
+    saved_path = ingest_dir / "last_slack_saved.json"
+    if saved_path.is_file():
+        raw = json.loads(saved_path.read_text(encoding="utf-8"))
+        for msg in raw.get("messages") or []:
+            item = _saved_item(msg)
             if item is not None:
                 items.append(item)
     return items
