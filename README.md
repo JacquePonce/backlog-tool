@@ -1,6 +1,8 @@
 # Personal backlog (YAML + board)
 
-**Git remote:** [github.com/JacquePonce/jacque-backlog-board](https://github.com/JacquePonce/jacque-backlog-board) (private — `git push` / `git pull` from `troy-beta/backlog`).
+**Git remotes**
+- **Private dev copy:** [github.com/JacquePonce/jacque-backlog-board](https://github.com/JacquePonce/jacque-backlog-board) (`git push` / `git pull` as `origin`).
+- **Public GitHub Pages site:** [github.com/JacquePonce/backlog-tool](https://github.com/JacquePonce/backlog-tool) — live app: **https://jacqueponce.github.io/backlog-tool/** (push with `git push pages main`).
 
 ## Where to run commands
 

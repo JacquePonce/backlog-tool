@@ -54,9 +54,13 @@
   }
 
   /**
-   * Once per local calendar day: any task on yesterday's focus that is still
-   * In progress on the board is added to today's focus (not re-run same day).
+   * Once per local calendar day: any task that still appears In progress on the board
+   * and was on **any** of the last 14 days' saved focus lists gets merged into today's focus.
+   * (Earlier we only looked at calendar yesterday — if you skipped opening Daily focus for
+   * several days, older picks never rolled until the day after you last had a saved "yesterday".)
    */
+  const ROLL_LOOKBACK_DAYS = 14;
+
   function rollIncompleteFocusFromYesterday() {
     const today = todayISODate();
     let lastRoll = "";
@@ -67,10 +71,18 @@
     }
     if (lastRoll === today) return 0;
 
-    const yesterday = addDaysISO(today, -1);
-    const prevIds = focusMap[yesterday] || [];
     const inProg = new Set(inProgressItems.map((i) => i.id));
-    const carry = prevIds.filter((id) => inProg.has(id));
+    const seen = new Set();
+    const carry = [];
+    for (let offset = 1; offset <= ROLL_LOOKBACK_DAYS; offset++) {
+      const day = addDaysISO(today, -offset);
+      for (const id of focusMap[day] || []) {
+        if (!inProg.has(id) || seen.has(id)) continue;
+        seen.add(id);
+        carry.push(id);
+      }
+    }
+
     if (!carry.length) {
       try {
         localStorage.setItem(LS_LAST_ROLL, today);
@@ -284,7 +296,7 @@
       focusMap = loadFocusMap();
       if (!boardDataLoaded) {
         err.textContent =
-          "Could not load board-data.json — only browser-local cards appear. Use the same URL as usual (e.g. http://127.0.0.1:8765/) with serve_board.py, not file://.";
+          "Could not load board-data.json — only browser-local cards appear. Open over https (GitHub Pages) or http://127.0.0.1 with serve_board.py — not file://.";
         err.classList.add("visible");
       }
       const carried = rollIncompleteFocusFromYesterday();
@@ -293,8 +305,8 @@
         if (status) {
           status.textContent =
             carried === 1
-              ? "Carried 1 unfinished task from yesterday to today (still in progress)."
-              : `Carried ${carried} unfinished tasks from yesterday to today (still in progress).`;
+              ? "Carried 1 unfinished task from recent days to today (still in progress)."
+              : `Carried ${carried} unfinished tasks from recent days to today (still in progress).`;
           setTimeout(() => {
             status.textContent = "";
           }, 6000);

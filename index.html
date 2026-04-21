@@ -47,7 +47,7 @@ h1{font-size:32px;font-weight:700;color:#1a1a1a;letter-spacing:-.5px}
       <span class="card-env focus">Focus</span>
     </a>
   </div>
-  <p class="hint">Run <code>.venv/bin/python scripts/serve_board.py</code> from this folder, then open <strong><code>http://127.0.0.1:8765/index.html</code></strong> (adjust port if the terminal shows a different one). Not <code>file://</code> — <code>board-data.json</code> must load over HTTP.</p>
+  <p class="hint"><strong>GitHub Pages:</strong> open this site over <code>https://</code> (e.g. <code>jacqueponce.github.io/backlog-tool/</code>) — <code>board-data.json</code> loads like a normal site. <strong>Locally:</strong> run <code>.venv/bin/python scripts/serve_board.py</code> then <code>http://127.0.0.1:8765/index.html</code> (port from terminal). Not <code>file://</code>.</p>
 </div>
 <script>
 (function () {
@@ -59,7 +59,7 @@ h1{font-size:32px;font-weight:700;color:#1a1a1a;letter-spacing:-.5px}
     "<strong>This page was opened from disk (file://)</strong>" +
     " — the Kanban and Daily focus pages will stay blank or broken because the browser blocks loading <code>board-data.json</code>. " +
     "In Terminal: <code>cd</code> to the <code>backlog</code> folder, run <code>.venv/bin/python scripts/serve_board.py</code>, " +
-    "then use the <strong>http://127.0.0.1:…/index.html</strong> URL from that window (not double‑clicking the file).";
+    "then use the <strong>http://127.0.0.1:…/index.html</strong> URL from that window, or publish to GitHub Pages over <code>https://</code> (not double‑clicking the file).";
 })();
 </script>
 </body>

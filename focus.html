@@ -27,7 +27,7 @@
         </button>
       </div>
     </div>
-    <p class="sub"><strong>Open via the local server</strong> — from the <code>backlog</code> folder run <code>.venv/bin/python scripts/serve_board.py</code>, then hub <strong><code>http://127.0.0.1:8765/index.html</code></strong> or this page <strong><code>http://127.0.0.1:8765/focus.html</code></strong> (port may differ). Do not double‑click this HTML file; <code>board-data.json</code> will not load over <code>file://</code>. Picks: <code>backlog-daily-focus-v1</code>. New tasks: <code>backlog-board-custom-cards-v1</code>.</p>
+    <p class="sub"><strong>GitHub Pages</strong> — use the published <code>https://</code> URL (same paths: <code>/index.html</code>, <code>/focus.html</code>). <strong>Local</strong> — run <code>scripts/serve_board.py</code> and open the printed <code>http://127.0.0.1:…</code> URL. Do not use <code>file://</code>. Picks: <code>backlog-daily-focus-v1</code>. New tasks: <code>backlog-board-custom-cards-v1</code>.</p>
   </header>
 
   <main class="focus-main">
@@ -41,7 +41,7 @@
     <div class="focus-columns">
       <section class="focus-panel focus-panel--pool" aria-labelledby="in-progress-heading">
         <h2 id="in-progress-heading">In progress — pick for today</h2>
-        <p class="focus-panel-lead">Tick tasks for today's list; click a title to open the same editor as the board (status, description, notes, etc.). Each new calendar day, unfinished picks from yesterday that are still <strong>In progress</strong> are added to today automatically.</p>
+        <p class="focus-panel-lead">Tick tasks for today's list; click a title to open the same editor as the board (status, description, notes, etc.). Each new calendar day, unfinished picks from the <strong>last 14 days</strong> that are still <strong>In progress</strong> merge into today automatically (first time you open Daily focus that day).</p>
         <div id="in-progress-list"></div>
       </section>
 
@@ -50,7 +50,7 @@
           <h2 id="working-heading">Working on today</h2>
           <span id="focus-working-count" class="focus-working-count" aria-live="polite"></span>
         </div>
-        <p class="focus-panel-lead focus-panel-lead--muted">Tasks you tick are saved with <strong>Save focus for this day</strong>. Items rolled in from yesterday are saved as soon as they appear.</p>
+        <p class="focus-panel-lead focus-panel-lead--muted">Tasks you tick are saved with <strong>Save focus for this day</strong>. Rolled-in items are saved as soon as they appear.</p>
         <div id="focus-selected-summary" class="focus-working-list"></div>
       </section>
     </div>
@@ -163,6 +163,6 @@
 
   <script src="backlog_shared.js" defer></script>
   <script src="backlog_card_editor.js?v=1" defer></script>
-  <script src="focus_app.js?v=5" defer></script>
+  <script src="focus_app.js?v=6" defer></script>
 </body>
 </html>
