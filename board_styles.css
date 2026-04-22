@@ -788,6 +788,50 @@ header .warn {
   font-weight: 500;
 }
 
+/* --- Compact card mode (default): hide redundant rows, tighter padding ---
+ * Priority is already shown by the band header, Status by the column, and
+ * the "Click to open..." hint is noise after the first few seconds. Hover
+ * the card to see the full metadata in the tooltip, or open it for detail.
+ */
+.card {
+  padding: 0.45rem 0.55rem;
+}
+.card-title {
+  margin: 0 0 0.3rem 0;
+  -webkit-line-clamp: 2;
+}
+.card-row {
+  margin-bottom: 0.2rem;
+}
+.card-row--priority,
+.card-row--status,
+.card-row--people.is-empty,
+.card-row--dod.is-empty,
+.card-hint {
+  display: none;
+}
+.card-row--chips {
+  gap: 0.3rem;
+  margin-bottom: 0.25rem;
+}
+.card-row--people,
+.card-row--dod,
+.card-row--dates {
+  font-size: 0.7rem;
+  margin-bottom: 0.15rem;
+}
+
+/* Escape hatch: add class="board-dense-off" on <body> to get the old verbose card */
+body.board-dense-off .card { padding: 0.65rem 0.75rem; }
+body.board-dense-off .card-title { margin-bottom: 0.45rem; }
+body.board-dense-off .card-row { margin-bottom: 0.28rem; }
+body.board-dense-off .card-row--priority,
+body.board-dense-off .card-row--status,
+body.board-dense-off .card-row--people.is-empty,
+body.board-dense-off .card-row--dod.is-empty,
+body.board-dense-off .card-hint { display: flex; }
+body.board-dense-off .card-hint { display: block; }
+
 /* Modal */
 .modal-backdrop {
   display: none;

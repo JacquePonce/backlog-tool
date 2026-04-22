@@ -407,43 +407,42 @@
     const displayTitle = effectiveTitle(item).trim() || "(no title)";
     card.appendChild(el("h3", "card-title", displayTitle));
 
-    const rPrio = el("div", "card-row");
+    const rPrio = el("div", "card-row card-row--priority");
     rPrio.appendChild(el("span", null, "Priority: "));
     const chipP = el("span", "chip chip-priority", PRIORITY_LABELS[pr]);
     chipP.dataset.priority = pr;
     rPrio.appendChild(chipP);
     card.appendChild(rPrio);
 
-    const rStat = el("div", "card-row");
+    const rStat = el("div", "card-row card-row--status");
     rStat.appendChild(el("span", null, "Status: "));
     rStat.appendChild(el("span", "chip chip-status-mini", STATUS_LABELS[st]));
     card.appendChild(rStat);
 
-    const r1 = el("div", "card-row");
+    const rChips = el("div", "card-row card-row--chips");
     const refShort = src.ref ? String(src.ref) : "";
     const refDisp =
       refShort.length > 32 ? refShort.slice(0, 30) + "…" : refShort;
-    r1.appendChild(
+    rChips.appendChild(
       el("span", "chip chip-source", refDisp ? `${src.label} · ${refDisp}` : src.label)
     );
-    card.appendChild(r1);
+    rChips.appendChild(el("span", "chip chip-front", front.replace(/_/g, " ")));
+    card.appendChild(rChips);
 
-    const r2 = el("div", "card-row");
-    r2.appendChild(el("span", "chip chip-front", front.replace(/_/g, " ")));
-    card.appendChild(r2);
-
-    const r3 = el("div", "card-row");
+    const hasPeople = people && people !== "—";
+    const r3 = el("div", "card-row card-row--people" + (hasPeople ? "" : " is-empty"));
     r3.appendChild(el("span", null, "People: "));
     r3.appendChild(el("span", "clamp-1", people));
     card.appendChild(r3);
 
-    const r4 = el("div", "card-row");
+    const hasDod = dod && dod !== "—";
+    const r4 = el("div", "card-row card-row--dod" + (hasDod ? "" : " is-empty"));
     r4.appendChild(el("span", null, "DoD: "));
     r4.appendChild(el("span", "clamp-1", dod || "—"));
     card.appendChild(r4);
 
     if (dateStr) {
-      card.appendChild(el("div", "card-row", "Dates: " + dateStr));
+      card.appendChild(el("div", "card-row card-row--dates", "Dates: " + dateStr));
     }
 
     const hint =
@@ -451,6 +450,7 @@
         ? "Click to open · drag to another label band or status column"
         : "Click to open · drag to another priority band or status column";
     card.appendChild(el("div", "card-hint", hint));
+    card.title = `${PRIORITY_LABELS[pr]} · ${STATUS_LABELS[st]}${hasPeople ? ' · ' + people : ''}${hasDod ? ' · DoD: ' + dod : ''}`;
 
     card.addEventListener("dragstart", (e) => {
       e.dataTransfer.setData("text/plain", item.id);
