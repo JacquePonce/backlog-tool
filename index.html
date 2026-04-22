@@ -16,11 +16,13 @@ h1{font-size:32px;font-weight:700;color:#1a1a1a;letter-spacing:-.5px}
 .card-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px}
 .card-icon.board{background:#e3f2fd;color:#1565c0}
 .card-icon.focus{background:#e8f5e9;color:#2e7d32}
+.card-icon.followup{background:#ede7f6;color:#5e35b1}
 .card-title{font-size:16px;font-weight:600}
 .card-desc{font-size:13px;color:#78909c;line-height:1.5}
 .card-env{display:inline-block;padding:3px 10px;border-radius:10px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-top:4px}
 .card-env.board{background:#e3f2fd;color:#1565c0}
 .card-env.focus{background:#e8f5e9;color:#2e7d32}
+.card-env.followup{background:#ede7f6;color:#5e35b1}
 .hint{margin-top:32px;font-size:13px;color:#90a4ae;max-width:36rem;line-height:1.5}
 .hint code{font-size:12px;background:#eceff1;padding:2px 6px;border-radius:4px}
 .file-warn{display:none;margin:0 0 20px 0;max-width:40rem;padding:14px 16px;background:#ffebee;border:1px solid #ef9a9a;border-radius:10px;color:#b71c1c;font-size:14px;line-height:1.5;text-align:left}
@@ -44,6 +46,12 @@ h1{font-size:32px;font-weight:700;color:#1a1a1a;letter-spacing:-.5px}
       <div class="card-title">Daily focus</div>
       <div class="card-desc">Pick in-progress work per day; edit cards in place</div>
       <span class="card-env focus">Focus</span>
+    </a>
+    <a class="card" href="follow_ups.html">
+      <div class="card-icon followup">&#8635;</div>
+      <div class="card-title">Follow-ups</div>
+      <div class="card-desc">Threads / asks to circle back on; time-bucketed kanban</div>
+      <span class="card-env followup">Follow-ups</span>
     </a>
   </div>
 </div>

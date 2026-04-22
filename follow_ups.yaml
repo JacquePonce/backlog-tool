@@ -1,0 +1,17 @@
+# Follow-up tracker -- threads / asks you need to circle back on in a few days.
+# Managed by scripts/add_followup.py (see `make followup-add`).
+#
+# Item schema:
+#   id:             fu-YYYYMMDD-NNN  (auto-generated)
+#   title:          Short label (e.g. "Reply to Davi re: Staging issues")
+#   url:            Slack thread / Jira / doc URL (optional but recommended)
+#   context:        Free-form note on why you're following up (optional)
+#   source:         slack | jira | confluence | doc | other (auto-inferred from URL)
+#   created_at:     YYYY-MM-DD
+#   follow_up_on:   YYYY-MM-DD -- when to re-surface the item
+#   status:         pending | done
+#   done_at:        YYYY-MM-DD (set when status flips to done)
+#   people:         [list of names on the thread]
+
+version: 1
+items: []

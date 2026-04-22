@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Follow-ups — Backlog</title>
+  <link rel="stylesheet" href="board_styles.css?v=home-dual-11">
+  <link rel="stylesheet" href="follow_up_styles.css?v=1">
+</head>
+<body class="fu-body">
+  <header class="fu-page-head">
+    <nav class="app-pages" aria-label="Pages">
+      <a href="index.html" class="app-page-link">Home</a>
+      <a href="board.html" class="app-page-link">Board</a>
+      <a href="focus.html" class="app-page-link">Daily focus</a>
+      <a href="follow_ups.html" class="app-page-link is-current">Follow-ups</a>
+    </nav>
+    <div class="fu-header-row">
+      <div>
+        <h1>Follow-ups</h1>
+        <p class="fu-lead">Wednesday Apr 22 · <strong>0</strong> pending · <strong>0</strong> done in last 30 days</p>
+      </div>
+      <button type="button" class="fu-add-btn" id="fu-add-open">+ New follow-up</button>
+    </div>
+  </header>
+
+  <main class="fu-board">
+    <section class="fu-col fu-col--overdue">  <header class="fu-col-head"><h2>Overdue</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
+<section class="fu-col fu-col--today">  <header class="fu-col-head"><h2>Today</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
+<section class="fu-col fu-col--tomorrow">  <header class="fu-col-head"><h2>Tomorrow</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
+<section class="fu-col fu-col--this_week">  <header class="fu-col-head"><h2>This week</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
+<section class="fu-col fu-col--later">  <header class="fu-col-head"><h2>Later</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
+<section class="fu-col fu-col--done">  <header class="fu-col-head"><h2>Recently done</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
+  </main>
+
+  <dialog id="fu-add-dialog" class="fu-dialog">
+    <form method="dialog" class="fu-form" id="fu-add-form">
+      <h2>New follow-up</h2>
+      <p class="fu-form-hint">We generate a one-line shell command — copy and paste it into your terminal. Nothing is written to YAML from the browser.</p>
+      <label>Title
+        <input type="text" name="title" required autocomplete="off" placeholder="Reply to Davi re: Staging issues">
+      </label>
+      <label>Link (Slack thread / Jira / doc)
+        <input type="url" name="url" autocomplete="off" placeholder="https://nubank.slack.com/...">
+      </label>
+      <label>Context (optional)
+        <input type="text" name="context" autocomplete="off" placeholder="waiting on PR review">
+      </label>
+      <label>People (optional, comma-separated)
+        <input type="text" name="people" autocomplete="off" placeholder="Davi Melazo, Viotti">
+      </label>
+      <label>Follow up in
+        <select name="days">
+          <option value="1">1 day</option>
+          <option value="2" selected>2 days</option>
+          <option value="3">3 days</option>
+          <option value="5">5 days (next week)</option>
+          <option value="7">1 week</option>
+          <option value="14">2 weeks</option>
+        </select>
+      </label>
+      <output id="fu-add-preview" class="fu-preview" aria-live="polite"></output>
+      <div class="fu-form-actions">
+        <button type="button" id="fu-add-copy">Copy command</button>
+        <button type="button" id="fu-add-close">Close</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="fu-toast" class="fu-toast" role="status" aria-live="polite"></div>
+
+  <script src="follow_ups.js?v=1" defer></script>
+</body>
+</html>
