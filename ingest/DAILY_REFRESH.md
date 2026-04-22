@@ -121,3 +121,35 @@ If one source MCP is unavailable, you can still run a subset. Examples:
 ```
 
 Only the source modules listed in `--only` will have their watermarks bumped.
+
+---
+
+## Optional deep sweeps
+
+These are slower and tend to return mostly noise on a quiet day. Skip them on a normal run; trigger on demand (e.g., `daily backlog refresh + deep sweep`).
+
+### Step 7 - Slack channel @mentions (deep sweep)
+
+Use when Step 2's `conversations_history` per-channel loop is too shallow, or when onboarding a new channel after a travel / OOO gap.
+
+1. Build the channel set: `conversations_list types=public_channel,private_channel` → filter by token-boundary rule on `{troy, us, da, ccf}` (same as Step 2).
+2. For each channel, run `slack_search_public_and_private query="in:<#channel> <@U01EZ383W11> after:<sync_state.slack_mentions.last_run as YYYY-MM-DD>"` with `sort="timestamp" sort_dir="desc" response_format="detailed" include_context=false limit=20`.
+3. Follow `pagination_info` cursors per channel until `End of results`.
+4. De-dupe with the existing Step 2 payload (keep earliest occurrence); keep the `stable_id = slack-<channel_id>-<ts>` contract.
+5. **Write to** [`last_slack_mentions.json`](last_slack_mentions.json) (same shape as Step 2).
+
+> Cost: ~1 MCP call per channel per cursor page. A 9-day gap across 40 channels ≈ 40–80 calls.
+
+### Step 8 - Gemini transcription retry
+
+Use when Step 4 left `last_gemini_docs.json` empty because transcripts hadn't landed yet (Gemini notes typically show up 30–90 min after the meeting ends).
+
+1. Re-run `calendar_listEvents` window `[now - 6h, now + 1h]`.
+2. For each attended event with no Step 4 hit, retry the Gemini doc lookup:
+   - `drive_search name contains "<event title>" in folder "Meet Recordings"` (fallback to `drive_search name contains "<event title>"` without folder scope).
+   - If found, `docs_getText doc_id=<id>`.
+3. Extract action items under *Action items / Next steps / Follow-ups / TODO / Próximos passos / Ações / Pendências / A fazer*, keep only rows that reference you.
+4. **Append to** [`last_gemini_docs.json`](last_gemini_docs.json) (driver de-dupes by stable id).
+5. Re-run `make daily --only gcal_gemini` (this does **not** touch Jira/Slack/Confluence watermarks).
+
+> Tip: a 4 PM local-time re-run catches morning standups + early-afternoon syncs; a 9 PM re-run catches the full day.
