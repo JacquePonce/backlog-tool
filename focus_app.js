@@ -208,18 +208,53 @@
     }
 
     const byId = new Map(inProgressItems.map((i) => [i.id, i]));
-    for (const id of ids) {
+    // Rank by status using the same priority as the board. Most-urgent first.
+    const STATUS_RANK = {
+      blocked: 0,
+      in_review: 1,
+      in_progress: 2,
+      selected_for_development: 3,
+      backlog: 4,
+      done: 5,
+      canceled: 6,
+    };
+    const STATUS_LABELS = {
+      backlog: "Backlog",
+      selected_for_development: "Selected",
+      in_progress: "In progress",
+      in_review: "In review",
+      blocked: "Blocked",
+      done: "Done",
+      canceled: "Cancelled",
+    };
+    const rankedIds = ids.slice().sort((a, b) => {
+      const sa = (byId.get(a) || {}).status || "backlog";
+      const sb = (byId.get(b) || {}).status || "backlog";
+      const ra = STATUS_RANK[sa] ?? 99;
+      const rb = STATUS_RANK[sb] ?? 99;
+      if (ra !== rb) return ra - rb;
+      return ids.indexOf(a) - ids.indexOf(b);
+    });
+
+    for (const id of rankedIds) {
       const item = byId.get(id);
+      const status = (item && item.status) || "backlog";
       const card = document.createElement("button");
       card.type = "button";
       card.className = "focus-working-card";
       card.dataset.itemId = id;
-      card.title = "Edit card (same as board)";
+      card.dataset.status = status;
+      card.title = `${STATUS_LABELS[status] || status} — click to edit (same as board)`;
       const titleEl = el("span", "focus-working-card-title", item ? item.title : id);
       const ref = item ? item.id.replace(/^jira-/, "").replace(/^local-/, "local · ") : id;
       const refEl = el("span", "focus-working-card-ref", ref);
+      const statusPill = el("span", "focus-working-card-status", STATUS_LABELS[status] || status);
+      statusPill.dataset.status = status;
       card.appendChild(titleEl);
-      card.appendChild(refEl);
+      const footRow = el("span", "focus-working-card-foot");
+      footRow.appendChild(statusPill);
+      footRow.appendChild(refEl);
+      card.appendChild(footRow);
       out.appendChild(card);
     }
   }
