@@ -131,14 +131,12 @@ button.focus-working-card:hover {
   transform: translateY(-1px);
 }
 
-/* Status tints — mirror .card[data-status="..."] in board_styles.css */
-.focus-working-card[data-status="backlog"]                  { background: #eceff4; border-color: #c5cad4; }
-.focus-working-card[data-status="selected_for_development"] { background: #e8eaf6; border-color: #9fa8da; }
-.focus-working-card[data-status="in_progress"]              { background: #e3f2fd; border-color: #90caf9; }
-.focus-working-card[data-status="in_review"]                { background: #fff3e0; border-color: #ffb74d; }
-.focus-working-card[data-status="blocked"]                  { background: #ffebee; border-color: #ef9a9a; }
-.focus-working-card[data-status="done"]                     { background: #dcedc8; border-color: #9ccc65; }
-.focus-working-card[data-status="canceled"]                 { background: #f3e5f5; border-color: #ce93d8; }
+/* Priority tints — mirror .chip-priority[data-priority="..."] palette from the board */
+.focus-working-card[data-priority="critical"]   { background: #fdecea; border-color: #ef9a9a; }
+.focus-working-card[data-priority="urgent"]     { background: #fff3e0; border-color: #ffb74d; }
+.focus-working-card[data-priority="medium"]     { background: #e0f2f1; border-color: #80cbc4; }
+.focus-working-card[data-priority="backlog"]    { background: #eceff4; border-color: #c5cad4; }
+.focus-working-card[data-priority="next_steps"] { background: #e8f4fd; border-color: #90caf9; }
 
 .focus-working-card-title {
   font-size: 0.875rem;
@@ -165,7 +163,7 @@ button.focus-working-card:hover {
   text-align: right;
 }
 
-.focus-working-card-status {
+.focus-working-card-priority {
   display: inline-block;
   padding: 2px 7px;
   border-radius: 4px;
@@ -176,13 +174,11 @@ button.focus-working-card:hover {
   background: rgba(255, 255, 255, 0.55);
   color: #334155;
 }
-.focus-working-card-status[data-status="blocked"]                  { background: #ffcdd2; color: #8b1a1a; }
-.focus-working-card-status[data-status="in_review"]                { background: #ffe0b2; color: #8a4a00; }
-.focus-working-card-status[data-status="in_progress"]              { background: #bbdefb; color: #0d47a1; }
-.focus-working-card-status[data-status="selected_for_development"] { background: #c5cae9; color: #1a237e; }
-.focus-working-card-status[data-status="backlog"]                  { background: #d6dae2; color: #434a57; }
-.focus-working-card-status[data-status="done"]                     { background: #c5e1a5; color: #33691e; }
-.focus-working-card-status[data-status="canceled"]                 { background: #e1bee7; color: #4a148c; }
+.focus-working-card-priority[data-priority="critical"]   { background: #ffcdd2; color: #8b1a1a; }
+.focus-working-card-priority[data-priority="urgent"]     { background: #ffe0b2; color: #8a4a00; }
+.focus-working-card-priority[data-priority="medium"]     { background: #b2dfdb; color: #00695c; }
+.focus-working-card-priority[data-priority="backlog"]    { background: #d6dae2; color: #434a57; }
+.focus-working-card-priority[data-priority="next_steps"] { background: #bbdefb; color: #0b5cab; }
 
 .focus-panel h2 {
   margin: 0 0 0.5rem 0;
