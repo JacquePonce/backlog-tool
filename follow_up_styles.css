@@ -325,23 +325,44 @@
   border-color: #2563eb;
 }
 
-.fu-preview {
-  background: #0f172a;
-  color: #f8fafc;
-  border-radius: 8px;
-  padding: 0.6rem 0.75rem;
+.fu-form textarea {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--fu-border);
+  border-radius: 7px;
   font-family: SFMono-Regular, ui-monospace, monospace;
   font-size: 0.78rem;
-  word-break: break-all;
-  white-space: pre-wrap;
-  min-height: 3.25rem;
+  background: #0f172a;
+  color: #f8fafc;
+  resize: vertical;
+  min-height: 6rem;
 }
+
+.fu-header-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fu-secondary-btn {
+  border: 1px solid var(--fu-border);
+  background: #fff;
+  color: var(--fu-text);
+  border-radius: 9px;
+  padding: 0.55rem 0.95rem;
+  font-weight: 600;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+.fu-secondary-btn:hover { background: var(--fu-surface-alt); border-color: #94a3b8; }
 
 .fu-form-actions {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
   gap: 0.5rem;
-  margin-top: 0.25rem;
+  margin-top: 0.35rem;
 }
 .fu-form-actions button {
   padding: 0.5rem 0.9rem;
@@ -350,13 +371,21 @@
   border: 1px solid var(--fu-border);
   background: #fff;
   cursor: pointer;
+  font: inherit;
 }
-#fu-add-copy {
+.fu-form-actions .fu-spacer { flex: 1; }
+.fu-form-actions .fu-primary-btn {
   background: #111827;
   color: #fff;
   border-color: #111827;
 }
-#fu-add-copy:hover { background: #1f2937; }
+.fu-form-actions .fu-primary-btn:hover { background: #1f2937; }
+.fu-form-actions .fu-danger-btn {
+  background: #fef2f2;
+  color: #b91c1c;
+  border-color: #fecaca;
+}
+.fu-form-actions .fu-danger-btn:hover { background: #fee2e2; border-color: #fca5a5; }
 
 /* -------- Toast -------- */
 

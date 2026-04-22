@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-04-22T14:56:31",
+  "generated_at": "2026-04-22T15:11:42",
   "today": "2026-04-22",
-  "counts": {
-    "pending": 0,
-    "done_recent": 0
-  },
-  "buckets": {
-    "overdue": [],
-    "today": [],
-    "tomorrow": [],
-    "this_week": [],
-    "later": [],
-    "done": []
-  }
+  "done_window_days": 30,
+  "items": []
 }

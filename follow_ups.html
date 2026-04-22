@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Follow-ups — Backlog</title>
   <link rel="stylesheet" href="board_styles.css?v=home-dual-11">
-  <link rel="stylesheet" href="follow_up_styles.css?v=1">
+  <link rel="stylesheet" href="follow_up_styles.css?v=2">
 </head>
 <body class="fu-body">
   <header class="fu-page-head">
@@ -18,25 +18,27 @@
     <div class="fu-header-row">
       <div>
         <h1>Follow-ups</h1>
-        <p class="fu-lead">Wednesday Apr 22 · <strong>0</strong> pending · <strong>0</strong> done in last 30 days</p>
+        <p class="fu-lead" id="fu-lead">Wednesday Apr 22 · loading…</p>
       </div>
-      <button type="button" class="fu-add-btn" id="fu-add-open">+ New follow-up</button>
+      <div class="fu-header-actions">
+        <button type="button" class="fu-add-btn" id="fu-add-open">+ New follow-up</button>
+        <button type="button" class="fu-secondary-btn" id="fu-export-open" title="Copy the YAML for all items (for backup / git)">Export YAML</button>
+      </div>
     </div>
   </header>
 
-  <main class="fu-board">
-    <section class="fu-col fu-col--overdue">  <header class="fu-col-head"><h2>Overdue</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
-<section class="fu-col fu-col--today">  <header class="fu-col-head"><h2>Today</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
-<section class="fu-col fu-col--tomorrow">  <header class="fu-col-head"><h2>Tomorrow</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
-<section class="fu-col fu-col--this_week">  <header class="fu-col-head"><h2>This week</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
-<section class="fu-col fu-col--later">  <header class="fu-col-head"><h2>Later</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
-<section class="fu-col fu-col--done">  <header class="fu-col-head"><h2>Recently done</h2><span class="fu-col-count">0</span></header>  <div class="fu-col-body"><p class="fu-empty">Nothing here.</p></div></section>
+  <main class="fu-board" id="fu-board">
+    <section class="fu-col fu-col--overdue" data-bucket="overdue">      <header class="fu-col-head"><h2>Overdue</h2><span class="fu-col-count" data-count-for="overdue">0</span></header>      <div class="fu-col-body" data-body-for="overdue"></div>    </section>
+    <section class="fu-col fu-col--today" data-bucket="today">      <header class="fu-col-head"><h2>Today</h2><span class="fu-col-count" data-count-for="today">0</span></header>      <div class="fu-col-body" data-body-for="today"></div>    </section>
+    <section class="fu-col fu-col--tomorrow" data-bucket="tomorrow">      <header class="fu-col-head"><h2>Tomorrow</h2><span class="fu-col-count" data-count-for="tomorrow">0</span></header>      <div class="fu-col-body" data-body-for="tomorrow"></div>    </section>
+    <section class="fu-col fu-col--this_week" data-bucket="this_week">      <header class="fu-col-head"><h2>This week</h2><span class="fu-col-count" data-count-for="this_week">0</span></header>      <div class="fu-col-body" data-body-for="this_week"></div>    </section>
+    <section class="fu-col fu-col--later" data-bucket="later">      <header class="fu-col-head"><h2>Later</h2><span class="fu-col-count" data-count-for="later">0</span></header>      <div class="fu-col-body" data-body-for="later"></div>    </section>
+    <section class="fu-col fu-col--done" data-bucket="done">      <header class="fu-col-head"><h2>Recently done</h2><span class="fu-col-count" data-count-for="done">0</span></header>      <div class="fu-col-body" data-body-for="done"></div>    </section>
   </main>
 
-  <dialog id="fu-add-dialog" class="fu-dialog">
-    <form method="dialog" class="fu-form" id="fu-add-form">
-      <h2>New follow-up</h2>
-      <p class="fu-form-hint">We generate a one-line shell command — copy and paste it into your terminal. Nothing is written to YAML from the browser.</p>
+  <dialog id="fu-edit-dialog" class="fu-dialog">
+    <form method="dialog" class="fu-form" id="fu-edit-form">
+      <h2 id="fu-edit-title">New follow-up</h2>
       <label>Title
         <input type="text" name="title" required autocomplete="off" placeholder="Reply to Davi re: Staging issues">
       </label>
@@ -49,26 +51,33 @@
       <label>People (optional, comma-separated)
         <input type="text" name="people" autocomplete="off" placeholder="Davi Melazo, Viotti">
       </label>
-      <label>Follow up in
-        <select name="days">
-          <option value="1">1 day</option>
-          <option value="2" selected>2 days</option>
-          <option value="3">3 days</option>
-          <option value="5">5 days (next week)</option>
-          <option value="7">1 week</option>
-          <option value="14">2 weeks</option>
-        </select>
+      <label>Follow up on
+        <input type="date" name="follow_up_on" required>
       </label>
-      <output id="fu-add-preview" class="fu-preview" aria-live="polite"></output>
       <div class="fu-form-actions">
-        <button type="button" id="fu-add-copy">Copy command</button>
-        <button type="button" id="fu-add-close">Close</button>
+        <button type="button" class="fu-danger-btn" id="fu-edit-delete" hidden>Delete</button>
+        <span class="fu-spacer"></span>
+        <button type="button" id="fu-edit-close">Cancel</button>
+        <button type="button" class="fu-primary-btn" id="fu-edit-save">Save</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="fu-export-dialog" class="fu-dialog">
+    <form method="dialog" class="fu-form">
+      <h2>Export follow-ups</h2>
+      <p class="fu-form-hint">Paste this into <code>follow_ups.yaml</code> (or save to disk) to back up your browser state to git.</p>
+      <textarea id="fu-export-text" rows="14" readonly spellcheck="false"></textarea>
+      <div class="fu-form-actions">
+        <span class="fu-spacer"></span>
+        <button type="button" id="fu-export-copy" class="fu-primary-btn">Copy to clipboard</button>
+        <button type="button" id="fu-export-close">Close</button>
       </div>
     </form>
   </dialog>
 
   <div id="fu-toast" class="fu-toast" role="status" aria-live="polite"></div>
 
-  <script src="follow_ups.js?v=1" defer></script>
+  <script src="follow_ups.js?v=2" defer></script>
 </body>
 </html>
