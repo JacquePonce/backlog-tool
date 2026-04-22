@@ -221,24 +221,24 @@
       card.appendChild(p);
     }
 
+    if (item.id) card.title = item.id;
+
     const foot = document.createElement('footer');
     foot.className = 'fu-foot';
-    const idSpan = document.createElement('span');
-    idSpan.className = 'fu-id';
-    idSpan.textContent = item.id || '';
-    foot.appendChild(idSpan);
 
     const actions = document.createElement('div');
     actions.className = 'fu-actions';
 
     if (item.status === 'done') {
-      const reopen = mkBtn('Re-open', 'fu-action', () => reopenItem(item.id));
+      const reopen = mkBtn('Re-open', 'fu-action', () => reopenItem(item.id), 'Re-open this follow-up');
       actions.appendChild(reopen);
     } else {
-      const editBtn = mkBtn('Edit', 'fu-action', () => openEdit(item));
-      const doneBtn = mkBtn('Mark done', 'fu-action fu-action--done', () => markDone(item.id));
-      const plus1 = mkBtn('+1d', 'fu-action', () => pushItem(item.id, 1));
-      const plus3 = mkBtn('+3d', 'fu-action', () => pushItem(item.id, 3));
+      const editBtn = mkBtn('Edit', 'fu-action fu-action--icon', () => openEdit(item), 'Edit');
+      editBtn.innerHTML = '<span aria-hidden="true">✎</span><span class="fu-sr">Edit</span>';
+      const doneBtn = mkBtn('Done', 'fu-action fu-action--done fu-action--icon', () => markDone(item.id), 'Mark done');
+      doneBtn.innerHTML = '<span aria-hidden="true">✓</span><span class="fu-sr">Done</span>';
+      const plus1 = mkBtn('+1', 'fu-action', () => pushItem(item.id, 1), 'Push +1 day');
+      const plus3 = mkBtn('+3', 'fu-action', () => pushItem(item.id, 3), 'Push +3 days');
       actions.appendChild(editBtn);
       actions.appendChild(doneBtn);
       actions.appendChild(plus1);
@@ -249,11 +249,12 @@
     return card;
   }
 
-  function mkBtn(label, cls, onClick) {
+  function mkBtn(label, cls, onClick, title) {
     const b = document.createElement('button');
     b.type = 'button';
     b.className = cls;
     b.textContent = label;
+    if (title) b.title = title;
     b.addEventListener('click', onClick);
     return b;
   }
