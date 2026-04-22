@@ -5,7 +5,7 @@ Serve the backlog folder over HTTP and open the hub (index.html) in your default
 Use this when you want a real browser tab (a normal webpage), not the in-editor preview.
 
 Usage:
-  cd troy-beta/backlog && .venv/bin/python scripts/serve_board.py
+  cd backlog && .venv/bin/python scripts/serve_board.py
 
 Optional: BACKLOG_PORT=9000 .venv/bin/python scripts/serve_board.py
 """

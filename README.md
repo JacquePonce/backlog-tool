@@ -8,17 +8,17 @@
 
 This folder is **not** in your home directory. On Jacqueline’s machine it is:
 
-`~/Documents/cursor/troy-beta/backlog`
+`~/Documents/cursor/backlog`
 
 Use that path in Terminal (or `cd` there from Cursor’s integrated terminal, which starts in the workspace). Examples:
 
 ```bash
-cd ~/Documents/cursor/troy-beta/backlog
+cd ~/Documents/cursor/backlog
 .venv/bin/python scripts/render_board.py
 .venv/bin/python scripts/serve_board.py
 ```
 
-If you see `cd: no such file or directory: troy-beta/backlog`, you are in `~` — use the full path above.
+If you see `cd: no such file or directory: backlog`, you are in `~` — use the full path above.
 
 ## Files
 
@@ -68,7 +68,7 @@ This is the recommended path once a day. Python does not call any MCP — the **
 2. In the terminal:
 
 ```bash
-cd ~/Documents/cursor/troy-beta/backlog
+cd ~/Documents/cursor/backlog
 make daily
 ```
 
@@ -89,7 +89,7 @@ You can run a subset of sources: `.venv/bin/python scripts/daily_refresh.py --on
 If only the Jira export changed and you do not want to touch the other sources:
 
 ```bash
-cd ~/Documents/cursor/troy-beta/backlog
+cd ~/Documents/cursor/backlog
 make jira     # = .venv/bin/python scripts/refresh_from_jira.py
 ```
 
@@ -98,7 +98,7 @@ That uses the JQL in [`ingest/QUERY_PACKS.md`](ingest/QUERY_PACKS.md), merges [`
 ## Regenerate the board only (`BOARD.md` + `BOARD.html` + `board.html`)
 
 ```bash
-cd ~/Documents/cursor/troy-beta/backlog
+cd ~/Documents/cursor/backlog
 .venv/bin/python scripts/render_board.py
 ```
 
@@ -107,7 +107,7 @@ cd ~/Documents/cursor/troy-beta/backlog
 Run a tiny local server so the board opens as a normal webpage (not the in-app preview):
 
 ```bash
-cd ~/Documents/cursor/troy-beta/backlog
+cd ~/Documents/cursor/backlog
 .venv/bin/python scripts/serve_board.py
 ```
 
@@ -122,7 +122,7 @@ Do not rely on double-clicking HTML — use the local server so `board-data.json
 First-time setup:
 
 ```bash
-cd ~/Documents/cursor/troy-beta/backlog
+cd ~/Documents/cursor/backlog
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```

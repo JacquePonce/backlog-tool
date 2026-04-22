@@ -16,7 +16,7 @@
 | `user-google-workspace` Sheets tools | **READ-ONLY** | Only `sheets_get*` tools exist — not a write target for the board via MCP. |
 | Google Keep / Notes | **N/A** | No Keep MCP. Use `drive_search` + Google Docs (including “Notes by Gemini” meeting docs via `docs_find` / `docs_getText`). |
 | Gemini | **N/A** | No Gemini MCP in this Cursor project; Gemini content may appear as Google Docs (see `docs_find` results). |
-| Cursor / Claude | **N/A** | Host environment; “test” = run an agent workflow that edits `troy-beta/backlog/items.yaml` and regenerates `BOARD.md`. |
+| Cursor / Claude | **N/A** | Host environment; “test” = run an agent workflow that edits `backlog/items.yaml` and regenerates `BOARD.md`. |
 | `user-nu-mcp` / ISA / Data | **OPTIONAL** | Not required for v1 backlog; load modules when linking data tickets. |
 
 ---

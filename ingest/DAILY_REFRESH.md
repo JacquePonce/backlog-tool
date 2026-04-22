@@ -2,7 +2,7 @@
 
 **Trigger phrase**: `daily backlog refresh`
 
-This runbook is meant for the Cursor **agent** (not a Python script). The agent calls the MCP servers, writes staged JSON into `troy-beta/backlog/ingest/`, and then you run the terminal command.
+This runbook is meant for the Cursor **agent** (not a Python script). The agent calls the MCP servers, writes staged JSON into `backlog/ingest/`, and then you run the terminal command.
 
 ## Quick flow
 
@@ -99,7 +99,7 @@ Source: Atlassian MCP (Confluence search + comments).
 After all 5 staged JSONs are written (Jira + Slack mentions + Slack DMs + Slack saved + GCal/Gemini + Confluence):
 
 ```bash
-cd ~/Documents/cursor/troy-beta/backlog
+cd ~/Documents/cursor/backlog
 make daily
 ```
 
