@@ -1,14 +1,14 @@
 version: 1
 sources:
   jira:
-    last_run: '2026-04-21T20:41:15Z'
+    last_run: '2026-04-22T14:27:29Z'
   slack_mentions:
-    last_run: '2026-04-21T20:41:15Z'
+    last_run: '2026-04-22T14:27:29Z'
   slack_dms:
-    last_run: '2026-04-21T20:41:15Z'
+    last_run: '2026-04-22T14:27:29Z'
   slack_saved:
-    last_run: '2026-04-21T20:41:15Z'
+    last_run: '2026-04-22T14:27:29Z'
   gcal_gemini:
-    last_run: '2026-04-21T20:41:15Z'
+    last_run: '2026-04-22T14:27:29Z'
   confluence:
-    last_run: '2026-04-21T20:41:15Z'
+    last_run: '2026-04-22T14:27:29Z'

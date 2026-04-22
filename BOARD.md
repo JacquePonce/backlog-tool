@@ -212,6 +212,383 @@ python scripts/render_board.py
 - **definition of done:** BA dependency noted; AE/DS workflow angle captured or meeting scheduled.
 - **source (slack):** [#internal-tools — initiatives summary 2026-04-08](https://nubank.slack.com/archives/C0AAGN991B2/p1775679528631379?thread_ts=1775679528.631379&cid=C0AAGN991B2)
 
+#### [MRC-4417] [Staging] Troy CC Beta - Issues
+
+- **id:** `jira-MRC-4417`
+- **front:** `release_beta`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: alpha-testing, roomba_no_parent_alert, troy-cc-alpha]
+- **source (jira):** [MRC-4417](https://nubank.atlassian.net/browse/MRC-4417)
+
+#### [MRC-4992] [CC] Staging Beta Scenarios
+
+- **id:** `jira-MRC-4992`
+- **front:** `beta_testing`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-staging-tests]
+- **dates:** due: 2026-06-30
+- **source (jira):** [MRC-4992](https://nubank.atlassian.net/browse/MRC-4992)
+
+#### [MRC-5324] [PRD] E2E Beta - Other Scenarios
+
+- **id:** `jira-MRC-5324`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5324](https://nubank.atlassian.net/browse/MRC-5324)
+
+#### [MRC-5328] [PRD] E2E Beta - Reversal Scenarios
+
+- **id:** `jira-MRC-5328`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5328](https://nubank.atlassian.net/browse/MRC-5328)
+
+#### [MRC-5327] [PRD] E2E Beta - 2nd Late Scenarios
+
+- **id:** `jira-MRC-5327`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5327](https://nubank.atlassian.net/browse/MRC-5327)
+
+#### [MRC-5326] [PRD] E2E Beta - Lateness Scenarios
+
+- **id:** `jira-MRC-5326`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5326](https://nubank.atlassian.net/browse/MRC-5326)
+
+#### [MRC-5325] [PRD] E2E Beta - Revolving Scenarios
+
+- **id:** `jira-MRC-5325`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5325](https://nubank.atlassian.net/browse/MRC-5325)
+
+#### [MRC-5530] OTH 32/FT 1: CYCLE 0 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5530`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5530](https://nubank.atlassian.net/browse/MRC-5530)
+
+#### [MRC-5529] OTH 32/FT 1: CYCLE 0 - Make a new purchase + financial adjustment
+
+- **id:** `jira-MRC-5529`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5529](https://nubank.atlassian.net/browse/MRC-5529)
+
+#### [MRC-5528] OTH 31/FT 1: CYCLE 0 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5528`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5528](https://nubank.atlassian.net/browse/MRC-5528)
+
+#### [MRC-5527] OTH 31/FT 1: CYCLE 0 - Make a new purchase (overlimit)
+
+- **id:** `jira-MRC-5527`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5527](https://nubank.atlassian.net/browse/MRC-5527)
+
+#### [MRC-5526] OTH 30/FT 1: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5526`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5526](https://nubank.atlassian.net/browse/MRC-5526)
+
+#### [MRC-5525] OTH 30/FT 1: CYCLE 1 - Make a new purchase (prepaid balance applied)
+
+- **id:** `jira-MRC-5525`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5525](https://nubank.atlassian.net/browse/MRC-5525)
+
+#### [MRC-5524] OTH 30/FT 1: CYCLE 0 - Verify bill = 0 + check label of not revolving after due date
+
+- **id:** `jira-MRC-5524`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5524](https://nubank.atlassian.net/browse/MRC-5524)
+
+#### [MRC-5523] OTH 30/FT 1: CYCLE 0 - Full reversal (prepaid balance, bill = 0)
+
+- **id:** `jira-MRC-5523`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5523](https://nubank.atlassian.net/browse/MRC-5523)
+
+#### [MRC-5522] 2LAT 20/FT 2: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5522`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5522](https://nubank.atlassian.net/browse/MRC-5522)
+
+#### [MRC-5521] LAT 12/FT 2: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5521`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5521](https://nubank.atlassian.net/browse/MRC-5521)
+
+#### [MRC-5520] RVSL 29/FT 2: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5520`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5520](https://nubank.atlassian.net/browse/MRC-5520)
+
+#### [MRC-5519] 2LAT 20/FT 2: CYCLE 1 - Pay statement
+
+- **id:** `jira-MRC-5519`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5519](https://nubank.atlassian.net/browse/MRC-5519)
+
+#### [MRC-5518] LAT 12/FT 2: CYCLE 1 - Pay statement
+
+- **id:** `jira-MRC-5518`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5518](https://nubank.atlassian.net/browse/MRC-5518)
+
+#### [MRC-5517] RVSL 25/FT 1: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5517`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5517](https://nubank.atlassian.net/browse/MRC-5517)
+
+#### [MRC-5516] RVSL 29/FT 2: CYCLE 1 - Make a new purchase + partial reversal (interest reversed)
+
+- **id:** `jira-MRC-5516`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5516](https://nubank.atlassian.net/browse/MRC-5516)
+
+#### [MRC-5515] 2LAT 20/FT 2: CYCLE 1 - Check 1st late fee + late fee waived + make a new purchase
+
+- **id:** `jira-MRC-5515`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5515](https://nubank.atlassian.net/browse/MRC-5515)
+
+#### [MRC-5514] LAT 12/FT 2: CYCLE 1 - Check 1st late fee + pay > minimum and < statement before close
+
+- **id:** `jira-MRC-5514`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5514](https://nubank.atlassian.net/browse/MRC-5514)
+
+#### [MRC-5513] RVSL 25/FT 1: CYCLE 1 - Make a new purchase + full reversal (interest reversed)
+
+- **id:** `jira-MRC-5513`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5513](https://nubank.atlassian.net/browse/MRC-5513)
+
+#### [MRC-5512] RVSL 29/FT 2: CYCLE 0 - Check label of revolving after due date + interest calculations
+
+- **id:** `jira-MRC-5512`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5512](https://nubank.atlassian.net/browse/MRC-5512)
+
+#### [MRC-5511] 2LAT 20/FT 2: CYCLE 0 - Check label of late + revolving after due date
+
+- **id:** `jira-MRC-5511`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5511](https://nubank.atlassian.net/browse/MRC-5511)
+
+#### [MRC-5510] LAT 12/FT 2: CYCLE 0 - Check label of late after due date
+
+- **id:** `jira-MRC-5510`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5510](https://nubank.atlassian.net/browse/MRC-5510)
+
+#### [MRC-5509] RVSL 25/FT 1: CYCLE 0 - Check label of revolving after due date + interest calculations
+
+- **id:** `jira-MRC-5509`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5509](https://nubank.atlassian.net/browse/MRC-5509)
+
+#### [MRC-5508] RVSL 29/FT 2: CYCLE 0 - Pay > minimum and < statement
+
+- **id:** `jira-MRC-5508`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5508](https://nubank.atlassian.net/browse/MRC-5508)
+
+#### [MRC-5507] 2LAT 20/FT 2: CYCLE 0 - No payment
+
+- **id:** `jira-MRC-5507`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5507](https://nubank.atlassian.net/browse/MRC-5507)
+
+#### [MRC-5505] LAT 12/FT 2: CYCLE 0 - Pay < minimum
+
+- **id:** `jira-MRC-5505`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5505](https://nubank.atlassian.net/browse/MRC-5505)
+
+#### [MRC-5506] RVSL 25/FT 1: CYCLE 0 - Pay > minimum and < statement
+
+- **id:** `jira-MRC-5506`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5506](https://nubank.atlassian.net/browse/MRC-5506)
+
+#### [MRC-5504] RVSL 29/FT 2: CYCLE 0 - Make a new purchase
+
+- **id:** `jira-MRC-5504`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5504](https://nubank.atlassian.net/browse/MRC-5504)
+
+#### [MRC-5503] 2LAT 20/FT 2: CYCLE 0 - Make a new purchase
+
+- **id:** `jira-MRC-5503`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5503](https://nubank.atlassian.net/browse/MRC-5503)
+
+#### [MRC-5502] LAT 12/FT 2: CYCLE 0 - Make a new purchase
+
+- **id:** `jira-MRC-5502`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5502](https://nubank.atlassian.net/browse/MRC-5502)
+
+#### [MRC-5501] RVSL 25/FT 1: CYCLE 0 - Make a new purchase
+
+- **id:** `jira-MRC-5501`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5501](https://nubank.atlassian.net/browse/MRC-5501)
+
+#### [MRC-5499] RVSL 28/FT 2: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5499`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5499](https://nubank.atlassian.net/browse/MRC-5499)
+
+#### [MRC-5500] LAT 16/FT 2: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5500`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5500](https://nubank.atlassian.net/browse/MRC-5500)
+
+#### [MRC-5498] 2LAT 19/FT 2: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5498`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5498](https://nubank.atlassian.net/browse/MRC-5498)
+
+#### [MRC-5497] LAT 11/FT 2: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5497`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5497](https://nubank.atlassian.net/browse/MRC-5497)
+
+#### [MRC-5496] RVSL 24/FT 1: CYCLE 1 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5496`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5496](https://nubank.atlassian.net/browse/MRC-5496)
+
+#### [MRC-5495] LAT 16/FT 2: CYCLE 1 - Pay statement
+
+- **id:** `jira-MRC-5495`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5495](https://nubank.atlassian.net/browse/MRC-5495)
+
+#### [MRC-5494] RVSL 28/FT 2: CYCLE 0 - Check label of not revolving after due date
+
+- **id:** `jira-MRC-5494`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5494](https://nubank.atlassian.net/browse/MRC-5494)
+
+#### [MRC-5493] 2LAT 19/FT 2: CYCLE 1 - Pay statement
+
+- **id:** `jira-MRC-5493`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5493](https://nubank.atlassian.net/browse/MRC-5493)
+
+#### [MRC-5492] LAT 11/FT 2: CYCLE 1 - Pay statement
+
+- **id:** `jira-MRC-5492`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5492](https://nubank.atlassian.net/browse/MRC-5492)
+
+#### [MRC-5490] LAT 16/FT 2: CYCLE 1 - Check 1st late fee + late fee waived + make a new purchase
+
+- **id:** `jira-MRC-5490`
+- **front:** `other`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: troy-cc-production-tests]
+- **source (jira):** [MRC-5490](https://nubank.atlassian.net/browse/MRC-5490)
+
 #### [MRC-3109] [Beta] Implementation Accounting movements
 
 - **id:** `jira-MRC-3109`
@@ -291,14 +668,6 @@ python scripts/render_board.py
   {'type': 'doc', 'version': 1, 'content': []}
 - **people:** Jacqueline Ponce
 - **source (jira):** [MRC-1701](https://nubank.atlassian.net/browse/MRC-1701)
-
-#### [MRC-4992] [CC] Staging Beta Scenarios
-
-- **id:** `jira-MRC-4992`
-- **front:** `beta_testing`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: troy-cc-beta, troy-cc-staging-tests]
-- **source (jira):** [MRC-4992](https://nubank.atlassian.net/browse/MRC-4992)
 
 #### [MRC-5088] REV 1/FT 1: CYCLE 2 - Pay statement
 
@@ -937,17 +1306,6 @@ python scripts/render_board.py
 - **people:** Jacqueline Ponce
 - **source (jira):** [MRC-3838](https://nubank.atlassian.net/browse/MRC-3838)
 
-#### [MRC-4437] Milestone 3: Tools + Monitoring Hub
-
-- **id:** `jira-MRC-4437`
-- **front:** `release_beta`
-- **priority:** `medium`
-- **description:**
-  [Jira · Backlog · labels: troy-cc-beta]
-  
-  **Goal:** Centralize tooling and visibility. * **Tools:** Choose and standardize tool for monitor metrics. Define the visualization and how to share the updates. * **Monitoring hub:** Build or configure a single place (monitoring hub) where teams can see which metrics exist, their definitions, owners, and links to dashboards/alerts. **Outcome:** Agreed tool stack and a central **monitoring hub** for discovery, definitions, and access to monitoring.
-- **source (jira):** [MRC-4437](https://nubank.atlassian.net/browse/MRC-4437)
-
 #### [MRC-3611] [Beta] Financial Adjustments Prod Discovery
 
 - **id:** `jira-MRC-3611`
@@ -1129,14 +1487,6 @@ python scripts/render_board.py
 - **priority:** `medium`
 - **description:** [Jira · Backlog · labels: sponsor-bank]
 - **source (jira):** [MRC-3786](https://nubank.atlassian.net/browse/MRC-3786)
-
-#### [MRC-4417] Troy CC Beta - Issues
-
-- **id:** `jira-MRC-4417`
-- **front:** `release_beta`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: alpha-testing, roomba_no_parent_alert, troy-cc-alpha]
-- **source (jira):** [MRC-4417](https://nubank.atlassian.net/browse/MRC-4417)
 
 #### [MRC-3613] [Beta] Financial Adjustments Whiteboard
 
@@ -2128,40 +2478,40 @@ python scripts/render_board.py
 - **people:** Thiago Andrade
 - **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 264992457377)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=264992457377)
 
-#### Confluence reply: Beta - Go/Non-Go & Guidelines — Abbishek
+#### Confluence reply: Beta - Go/Non-Go & Guidelines — Janna Johnson
 
 - **id:** `cfl-264987510474-265017723281`
 - **front:** `other`
 - **priority:** `urgent`
 - **description:**
-  [Confluence · Beta - Go/Non-Go & Guidelines · Abbishek]
+  [Confluence · Beta - Go/Non-Go & Guidelines · Janna Johnson]
   
-  @Jacqueline Ponce @Giovanna Perez this seems like a blocker, no?
-- **people:** Abbishek
+  Jacqueline Ponce  Giovanna Perez  this seems like a blocker, no?
+- **people:** Janna Johnson
 - **source (confluence):** [Beta - Go/Non-Go & Guidelines (comment 265017723281)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264987510474/Beta+-+Go+Non-Go+Guidelines?focusedCommentId=265017723281)
 
-#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Abbishek (id 63723)
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Dharmesh Chheda
 
 - **id:** `cfl-265001370171-265018802288`
 - **front:** `other`
 - **priority:** `urgent`
 - **description:**
-  [Confluence · Milestone 2 - Source of Truth + How to measure · Abbishek (id 63723)]
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Dharmesh Chheda]
   
-  @Jacqueline Ponce shouldn't this be 100%? What are the data-points in mind which prevents us to target 100%?
-- **people:** Abbishek (id 63723)
+  Jacqueline Ponce   shouldn&#39;t this be 100%?  Whar are the data-points in mind which prevents us to target 100%?
+- **people:** Dharmesh Chheda
 - **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265018802288)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265018802288)
 
-#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Abbishek (id 63723)
+#### Confluence reply: Milestone 2 - Source of Truth + How to measure — Dharmesh Chheda
 
 - **id:** `cfl-265001370171-265019031595`
 - **front:** `other`
 - **priority:** `urgent`
 - **description:**
-  [Confluence · Milestone 2 - Source of Truth + How to measure · Abbishek (id 63723)]
+  [Confluence · Milestone 2 - Source of Truth + How to measure · Dharmesh Chheda]
   
-  @Jacqueline Ponce With an understanding that any manual intervention done at any step (ex. in lateness / 2nd lateness) will require us to do the fix and test the scenario again. Is that the approach we are adopting. Should we instead change based on the "Testing Priority" meaning all High and Medium being 100% HOTW?
-- **people:** Abbishek (id 63723)
+  Jacqueline Ponce   With an understanding that any manual intervention done at any step (ex. in lateness  / 2nd lateness ) will require us to do the fix and test the scenario again. Is that the approach we are adopting. Should we instead change based on the “Testing Priority” meaning all High and Medium being 100% HO...
+- **people:** Dharmesh Chheda
 - **source (confluence):** [Milestone 2 - Source of Truth + How to measure (comment 265019031595)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/265001370171/Milestone+2+-+Source+of+Truth+How+to+measure?focusedCommentId=265019031595)
 
 #### Confluence reply: Milestone 2 - Source of Truth + How to measure — Abbishek (id 63723)
@@ -2296,16 +2646,16 @@ python scripts/render_board.py
 - **people:** Abbishek (id 63723)
 - **source (confluence):** [Alpha - Testers Round 2 (comment 264902541567)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264902052681/Alpha+-+Testers+Round+2?focusedCommentId=264902541567)
 
-#### Confluence reply: Alpha - Testers Round 2 — Abbishek (id 63723)
+#### Confluence reply: Alpha - Testers Round 2 — Dharmesh Chheda
 
 - **id:** `cfl-264902052681-264901233331`
 - **front:** `other`
 - **priority:** `urgent`
 - **description:**
-  [Confluence · Alpha - Testers Round 2 · Abbishek (id 63723)]
+  [Confluence · Alpha - Testers Round 2 · Dharmesh Chheda]
   
-  @Jacqueline Ponce We are not tied to device
-- **people:** Abbishek (id 63723)
+  Jacqueline Ponce   We are not tied to device
+- **people:** Dharmesh Chheda
 - **source (confluence):** [Alpha - Testers Round 2 (comment 264901233331)](https://nubank.atlassian.net/wiki/spaces/TROY/pages/264902052681/Alpha+-+Testers+Round+2?focusedCommentId=264901233331)
 
 #### Confluence reply: Alpha - Testers Round 2 — Abbishek (id 63723)
@@ -3370,6 +3720,35 @@ python scripts/render_board.py
 - **source (jira):** [MRC-1908](https://nubank.atlassian.net/browse/MRC-1908)
 
 ## Done
+
+#### [MRC-5064] M4: Metric 4: Beta End-to-End Coverage (32/32 scenarios)
+
+- **id:** `jira-MRC-5064`
+- **front:** `release_beta`
+- **priority:** `medium`
+- **description:** [Jira · Done · labels: troy-cc-beta]
+- **people:** Jacqueline Ponce
+- **dates:** due: 2026-05-01
+- **source (jira):** [MRC-5064](https://nubank.atlassian.net/browse/MRC-5064)
+
+#### [MRC-5065] Define evidence package sign-off process and template
+
+- **id:** `jira-MRC-5065`
+- **front:** `release_beta`
+- **priority:** `medium`
+- **description:** [Jira · Done · labels: troy-cc-beta]
+- **people:** Jacqueline Ponce
+- **source (jira):** [MRC-5065](https://nubank.atlassian.net/browse/MRC-5065)
+
+#### [MRC-4437] Milestone 3: Tools + Monitoring Hub
+
+- **id:** `jira-MRC-4437`
+- **front:** `release_beta`
+- **priority:** `medium`
+- **description:** [Jira · Done · labels: troy-cc-beta]
+- **people:** Jacqueline Ponce
+- **dates:** due: 2026-04-24
+- **source (jira):** [MRC-4437](https://nubank.atlassian.net/browse/MRC-4437)
 
 #### [MRC-4979] Go/Non-Go Definition for Beta
 
