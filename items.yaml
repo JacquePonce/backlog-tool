@@ -367,6 +367,138 @@ items:
   - type: slack
     url: https://nubank.slack.com/archives/C0AAGN991B2/p1775679528631379?thread_ts=1775679528.631379&cid=C0AAGN991B2
     ref: '#internal-tools — initiatives summary 2026-04-08'
+- id: jira-MRC-3786
+  title: '[MRC-3786] [F&F] Transactions Report'
+  front: sponsor_lead_bank
+  status: canceled
+  priority: medium
+  people: []
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-3786
+    ref: MRC-3786
+  description: '[Jira · Canceled · labels: sponsor-bank]'
+- id: jira-MRC-4401
+  title: '[MRC-4401] Reversal Disbursement - Beta'
+  front: sponsor_lead_bank
+  status: backlog
+  priority: medium
+  people: []
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-4401
+    ref: MRC-4401
+  description: '[Jira · Backlog · labels: blocked-da, sponsor-bank]'
+- id: jira-CCFI-2234
+  title: '[CCFI-2234] CC New Features Lead’s Integration - Partial Payment'
+  front: sponsor_lead_bank
+  status: backlog
+  priority: medium
+  people:
+  - Jacqueline Ponce
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/CCFI-2234
+    ref: CCFI-2234
+  description: '[Jira · Backlog · labels: sponsor-bank]'
+- id: jira-MRC-4844
+  title: '[MRC-4844] Payment Allocation - Tests and Validation'
+  front: sponsor_lead_bank
+  status: backlog
+  priority: medium
+  people:
+  - Felipe Silva
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-4844
+    ref: MRC-4844
+  description: '[Jira · Backlog · labels: sponsor-bank]'
+- id: jira-CCFI-2233
+  title: '[CCFI-2233] CC New Features Lead’s Integration - Revolving'
+  front: sponsor_lead_bank
+  status: backlog
+  priority: medium
+  people:
+  - Jacqueline Ponce
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/CCFI-2233
+    ref: CCFI-2233
+  description: '[Jira · Backlog · labels: sponsor-bank]'
+- id: jira-CCFI-2232
+  title: '[CCFI-2232] Beta Test Plan - Staging and Production'
+  front: sponsor_lead_bank
+  status: in_progress
+  priority: medium
+  people:
+  - Jacqueline Ponce
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/CCFI-2232
+    ref: CCFI-2232
+  description: '[Jira · In Progress · labels: sponsor-bank]
+
+
+    (i) Finish the Test Design for Beta Staging and Production and (ii) Start the testing in both environments'
+- id: jira-MRC-4843
+  title: '[MRC-4843] Revolving - Tests and Validation'
+  front: sponsor_lead_bank
+  status: backlog
+  priority: medium
+  people: []
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-4843
+    ref: MRC-4843
+  description: '[Jira · Backlog · labels: sponsor-bank]'
+- id: jira-MRC-5551
+  title: '[MRC-5551] Tech discovery Cashback'
+  front: sponsor_lead_bank
+  status: in_progress
+  priority: medium
+  people:
+  - Nadia Andrushchenko
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-5551
+    ref: MRC-5551
+  description: '[Jira · In Progress · labels: sponsor-bank]'
+- id: jira-MRC-5550
+  title: '[MRC-5550] Create PRD Lead''s Report for Cashback'
+  front: sponsor_lead_bank
+  status: in_review
+  priority: medium
+  people:
+  - Jacqueline Ponce
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-5550
+    ref: MRC-5550
+  description: '[Jira · Review · labels: sponsor-bank]'
+- id: jira-CCFI-2235
+  title: '[CCFI-2235] CC New Features Lead’s Integration - Lateness'
+  front: sponsor_lead_bank
+  status: in_progress
+  priority: medium
+  people:
+  - Jacqueline Ponce
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/CCFI-2235
+    ref: CCFI-2235
+  description: '[Jira · In Progress · labels: sponsor-bank]'
+- id: jira-MRC-4847
+  title: '[MRC-4847] Lateness - Tests and Validation'
+  front: sponsor_lead_bank
+  status: backlog
+  priority: medium
+  people:
+  - Nadia Andrushchenko
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-4847
+    ref: MRC-4847
+  description: '[Jira · Backlog · labels: blocked-da, sponsor-bank]'
 - id: jira-MRC-4417
   title: '[MRC-4417] [Staging] Troy CC Beta - Issues'
   front: release_beta
@@ -378,6 +510,51 @@ items:
     url: https://nubank.atlassian.net/browse/MRC-4417
     ref: MRC-4417
   description: '[Jira · Backlog · labels: alpha-testing, roomba_no_parent_alert, troy-cc-alpha]'
+- id: jira-PMNT-1954
+  title: '[PMNT-1954] CC Payment was not process until the end'
+  front: other
+  status: backlog
+  priority: critical
+  people: []
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/PMNT-1954
+    ref: PMNT-1954
+  description: '[Jira · Backlog · labels: OPS, channel_automation, support-other-teams]
+
+
+    Hi team, how are you? We are still trying to resolve the error from last Friday regarding CC Payment
+    that didn went trough. The money leaved the savings account but execute CC payment services. We are
+    working on the CC manual adjustments, but we need to unblock the GBA team to send reports to Lead
+    (US sponsor bank). One possibility to adjust the reports so our team can have time to develop the
+    official solution (which is manual adjustments, scheduled for June) is that poss...'
+- id: jira-MRC-5549
+  title: '[MRC-5549] Review TA from Cashback'
+  front: sponsor_lead_bank
+  status: in_progress
+  priority: medium
+  people:
+  - Jacqueline Ponce
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-5549
+    ref: MRC-5549
+  description: '[Jira · In Progress · labels: sponsor-bank]
+
+
+    <custom data-type="smartlink" data-id="id-0">https://nubank.atlassian.net/wiki/spaces/TROY/pages/264947040631/Tech+Assessment+-+US+-+Sponsor+Bank+Integration</custom>'
+- id: jira-MRC-3542
+  title: '[MRC-3542] Cashback'
+  front: sponsor_lead_bank
+  status: in_progress
+  priority: medium
+  people:
+  - Jacqueline Ponce
+  sources:
+  - type: jira
+    url: https://nubank.atlassian.net/browse/MRC-3542
+    ref: MRC-3542
+  description: '[Jira · In Progress · labels: sponsor-bank]'
 - id: jira-MRC-5064
   title: '[MRC-5064] M4: Metric 4: Beta End-to-End Coverage (32/32 scenarios)'
   front: release_beta
@@ -2031,57 +2208,6 @@ items:
     url: https://nubank.atlassian.net/browse/CCFI-2236
     ref: CCFI-2236
   description: '[Jira · Backlog · labels: sponsor-bank]'
-- id: jira-CCFI-2235
-  title: '[CCFI-2235] CC New Features Lead’s Integration - Lateness'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people:
-  - Jacqueline Ponce
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/CCFI-2235
-    ref: CCFI-2235
-  description: '[Jira · Backlog · labels: sponsor-bank]'
-- id: jira-CCFI-2234
-  title: '[CCFI-2234] CC New Features Lead’s Integration - Partial Payment'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people:
-  - Jacqueline Ponce
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/CCFI-2234
-    ref: CCFI-2234
-  description: '[Jira · Backlog · labels: sponsor-bank]'
-- id: jira-CCFI-2233
-  title: '[CCFI-2233] CC New Features Lead’s Integration - Revolving'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people:
-  - Jacqueline Ponce
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/CCFI-2233
-    ref: CCFI-2233
-  description: '[Jira · Backlog · labels: sponsor-bank]'
-- id: jira-CCFI-2232
-  title: '[CCFI-2232] Beta Test Plan - Staging and Production'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people:
-  - Jacqueline Ponce
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/CCFI-2232
-    ref: CCFI-2232
-  description: '[Jira · Backlog · labels: sponsor-bank]
-
-
-    (i) Finish the Test Design for Beta Staging and Production and (ii) Start the testing in both environments'
 - id: jira-MRC-4722
   title: '[MRC-4722] [Dependency DA] [SB] [Lateness] Contracts Definitions'
   front: sponsor_lead_bank
@@ -2711,18 +2837,6 @@ items:
     url: https://nubank.atlassian.net/browse/MRC-3878
     ref: MRC-3878
   description: '[Jira · Backlog · labels: sponsor-bank]'
-- id: jira-MRC-3542
-  title: '[MRC-3542] Cashback'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people:
-  - Jacqueline Ponce
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/MRC-3542
-    ref: MRC-3542
-  description: '[Jira · Backlog · labels: sponsor-bank]'
 - id: jira-MRC-4400
   title: '[MRC-4400] Financial Adjustment - Beta'
   front: sponsor_lead_bank
@@ -2734,18 +2848,6 @@ items:
   - type: jira
     url: https://nubank.atlassian.net/browse/MRC-4400
     ref: MRC-4400
-  description: '[Jira · Backlog · labels: blocked-da, sponsor-bank]'
-- id: jira-MRC-4847
-  title: '[MRC-4847] Lateness - Tests and Validation'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people:
-  - Nadia Andrushchenko
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/MRC-4847
-    ref: MRC-4847
   description: '[Jira · Backlog · labels: blocked-da, sponsor-bank]'
 - id: jira-MRC-3092
   title: '[MRC-3092] Lateness - Implementation'
@@ -2793,17 +2895,6 @@ items:
     url: https://nubank.atlassian.net/browse/MRC-3606
     ref: MRC-3606
   description: '[Jira · Done · labels: sponsor-bank]'
-- id: jira-MRC-4401
-  title: '[MRC-4401] Reversal Disbursement - Beta'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people: []
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/MRC-4401
-    ref: MRC-4401
-  description: '[Jira · Backlog · labels: blocked-da, sponsor-bank]'
 - id: jira-MRC-3090
   title: '[MRC-3090] Payment Allocation - Implementation'
   front: sponsor_lead_bank
@@ -2816,18 +2907,6 @@ items:
     url: https://nubank.atlassian.net/browse/MRC-3090
     ref: MRC-3090
   description: '[Jira · Done · labels: sponsor-bank]'
-- id: jira-MRC-4844
-  title: '[MRC-4844] Payment Allocation - Tests and Validation'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people:
-  - Felipe Silva
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/MRC-4844
-    ref: MRC-4844
-  description: '[Jira · Backlog · labels: sponsor-bank]'
 - id: jira-MRC-3355
   title: '[MRC-3355] Sandbox Testing'
   front: sponsor_lead_bank
@@ -2880,17 +2959,6 @@ items:
   - type: jira
     url: https://nubank.atlassian.net/browse/MRC-3356
     ref: MRC-3356
-  description: '[Jira · Backlog · labels: sponsor-bank]'
-- id: jira-MRC-4843
-  title: '[MRC-4843] Revolving - Tests and Validation'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people: []
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/MRC-4843
-    ref: MRC-4843
   description: '[Jira · Backlog · labels: sponsor-bank]'
 - id: jira-MRC-2993
   title: '[MRC-2993] Cards Report - Beta + Leftover'
@@ -3034,17 +3102,6 @@ items:
   - type: jira
     url: https://nubank.atlassian.net/browse/MRC-3837
     ref: MRC-3837
-  description: '[Jira · Backlog · labels: sponsor-bank]'
-- id: jira-MRC-3786
-  title: '[MRC-3786] [F&F] Transactions Report'
-  front: sponsor_lead_bank
-  status: backlog
-  priority: medium
-  people: []
-  sources:
-  - type: jira
-    url: https://nubank.atlassian.net/browse/MRC-3786
-    ref: MRC-3786
   description: '[Jira · Backlog · labels: sponsor-bank]'
 - id: jira-MRC-3696
   title: '[MRC-3696] Lead Test Scenarios for Alpha - Purchase close to midnight'

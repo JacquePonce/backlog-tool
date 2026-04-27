@@ -212,6 +212,58 @@ python scripts/render_board.py
 - **definition of done:** BA dependency noted; AE/DS workflow angle captured or meeting scheduled.
 - **source (slack):** [#internal-tools — initiatives summary 2026-04-08](https://nubank.slack.com/archives/C0AAGN991B2/p1775679528631379?thread_ts=1775679528.631379&cid=C0AAGN991B2)
 
+#### [MRC-4401] Reversal Disbursement - Beta
+
+- **id:** `jira-MRC-4401`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: blocked-da, sponsor-bank]
+- **source (jira):** [MRC-4401](https://nubank.atlassian.net/browse/MRC-4401)
+
+#### [CCFI-2234] CC New Features Lead’s Integration - Partial Payment
+
+- **id:** `jira-CCFI-2234`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: sponsor-bank]
+- **people:** Jacqueline Ponce
+- **source (jira):** [CCFI-2234](https://nubank.atlassian.net/browse/CCFI-2234)
+
+#### [MRC-4844] Payment Allocation - Tests and Validation
+
+- **id:** `jira-MRC-4844`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: sponsor-bank]
+- **people:** Felipe Silva
+- **source (jira):** [MRC-4844](https://nubank.atlassian.net/browse/MRC-4844)
+
+#### [CCFI-2233] CC New Features Lead’s Integration - Revolving
+
+- **id:** `jira-CCFI-2233`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: sponsor-bank]
+- **people:** Jacqueline Ponce
+- **source (jira):** [CCFI-2233](https://nubank.atlassian.net/browse/CCFI-2233)
+
+#### [MRC-4843] Revolving - Tests and Validation
+
+- **id:** `jira-MRC-4843`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: sponsor-bank]
+- **source (jira):** [MRC-4843](https://nubank.atlassian.net/browse/MRC-4843)
+
+#### [MRC-4847] Lateness - Tests and Validation
+
+- **id:** `jira-MRC-4847`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · Backlog · labels: blocked-da, sponsor-bank]
+- **people:** Nadia Andrushchenko
+- **source (jira):** [MRC-4847](https://nubank.atlassian.net/browse/MRC-4847)
+
 #### [MRC-4417] [Staging] Troy CC Beta - Issues
 
 - **id:** `jira-MRC-4417`
@@ -219,6 +271,17 @@ python scripts/render_board.py
 - **priority:** `medium`
 - **description:** [Jira · Backlog · labels: alpha-testing, roomba_no_parent_alert, troy-cc-alpha]
 - **source (jira):** [MRC-4417](https://nubank.atlassian.net/browse/MRC-4417)
+
+#### [PMNT-1954] CC Payment was not process until the end
+
+- **id:** `jira-PMNT-1954`
+- **front:** `other`
+- **priority:** `critical`
+- **description:**
+  [Jira · Backlog · labels: OPS, channel_automation, support-other-teams]
+  
+  Hi team, how are you? We are still trying to resolve the error from last Friday regarding CC Payment that didn went trough. The money leaved the savings account but execute CC payment services. We are working on the CC manual adjustments, but we need to unblock the GBA team to send reports to Lead (US sponsor bank). One possibility to adjust the reports so our team can have time to develop the official solution (which is manual adjustments, scheduled for June) is that poss...
+- **source (jira):** [PMNT-1954](https://nubank.atlassian.net/browse/PMNT-1954)
 
 #### [MRC-4992] [CC] Staging Beta Scenarios
 
@@ -1191,45 +1254,6 @@ python scripts/render_board.py
 - **people:** Jacqueline Ponce
 - **source (jira):** [CCFI-2236](https://nubank.atlassian.net/browse/CCFI-2236)
 
-#### [CCFI-2235] CC New Features Lead’s Integration - Lateness
-
-- **id:** `jira-CCFI-2235`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: sponsor-bank]
-- **people:** Jacqueline Ponce
-- **source (jira):** [CCFI-2235](https://nubank.atlassian.net/browse/CCFI-2235)
-
-#### [CCFI-2234] CC New Features Lead’s Integration - Partial Payment
-
-- **id:** `jira-CCFI-2234`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: sponsor-bank]
-- **people:** Jacqueline Ponce
-- **source (jira):** [CCFI-2234](https://nubank.atlassian.net/browse/CCFI-2234)
-
-#### [CCFI-2233] CC New Features Lead’s Integration - Revolving
-
-- **id:** `jira-CCFI-2233`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: sponsor-bank]
-- **people:** Jacqueline Ponce
-- **source (jira):** [CCFI-2233](https://nubank.atlassian.net/browse/CCFI-2233)
-
-#### [CCFI-2232] Beta Test Plan - Staging and Production
-
-- **id:** `jira-CCFI-2232`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:**
-  [Jira · Backlog · labels: sponsor-bank]
-  
-  (i) Finish the Test Design for Beta Staging and Production and (ii) Start the testing in both environments
-- **people:** Jacqueline Ponce
-- **source (jira):** [CCFI-2232](https://nubank.atlassian.net/browse/CCFI-2232)
-
 #### [MRC-4722] [Dependency DA] [SB] [Lateness] Contracts Definitions
 
 - **id:** `jira-MRC-4722`
@@ -1388,15 +1412,6 @@ python scripts/render_board.py
 - **people:** Jacqueline Ponce
 - **source (jira):** [MRC-3878](https://nubank.atlassian.net/browse/MRC-3878)
 
-#### [MRC-3542] Cashback
-
-- **id:** `jira-MRC-3542`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: sponsor-bank]
-- **people:** Jacqueline Ponce
-- **source (jira):** [MRC-3542](https://nubank.atlassian.net/browse/MRC-3542)
-
 #### [MRC-4400] Financial Adjustment - Beta
 
 - **id:** `jira-MRC-4400`
@@ -1406,15 +1421,6 @@ python scripts/render_board.py
 - **people:** Jacqueline Ponce
 - **source (jira):** [MRC-4400](https://nubank.atlassian.net/browse/MRC-4400)
 
-#### [MRC-4847] Lateness - Tests and Validation
-
-- **id:** `jira-MRC-4847`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: blocked-da, sponsor-bank]
-- **people:** Nadia Andrushchenko
-- **source (jira):** [MRC-4847](https://nubank.atlassian.net/browse/MRC-4847)
-
 #### [MRC-3354] Sandbox Testing
 
 - **id:** `jira-MRC-3354`
@@ -1422,23 +1428,6 @@ python scripts/render_board.py
 - **priority:** `medium`
 - **description:** [Jira · Backlog · labels: sponsor-bank]
 - **source (jira):** [MRC-3354](https://nubank.atlassian.net/browse/MRC-3354)
-
-#### [MRC-4401] Reversal Disbursement - Beta
-
-- **id:** `jira-MRC-4401`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: blocked-da, sponsor-bank]
-- **source (jira):** [MRC-4401](https://nubank.atlassian.net/browse/MRC-4401)
-
-#### [MRC-4844] Payment Allocation - Tests and Validation
-
-- **id:** `jira-MRC-4844`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: sponsor-bank]
-- **people:** Felipe Silva
-- **source (jira):** [MRC-4844](https://nubank.atlassian.net/browse/MRC-4844)
 
 #### [MRC-3355] Sandbox Testing
 
@@ -1456,14 +1445,6 @@ python scripts/render_board.py
 - **description:** [Jira · Backlog · labels: sponsor-bank]
 - **source (jira):** [MRC-3356](https://nubank.atlassian.net/browse/MRC-3356)
 
-#### [MRC-4843] Revolving - Tests and Validation
-
-- **id:** `jira-MRC-4843`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: sponsor-bank]
-- **source (jira):** [MRC-4843](https://nubank.atlassian.net/browse/MRC-4843)
-
 #### [MRC-3526] Beta Leftovers
 
 - **id:** `jira-MRC-3526`
@@ -1479,14 +1460,6 @@ python scripts/render_board.py
 - **priority:** `medium`
 - **description:** [Jira · Backlog · labels: sponsor-bank]
 - **source (jira):** [MRC-3837](https://nubank.atlassian.net/browse/MRC-3837)
-
-#### [MRC-3786] [F&F] Transactions Report
-
-- **id:** `jira-MRC-3786`
-- **front:** `sponsor_lead_bank`
-- **priority:** `medium`
-- **description:** [Jira · Backlog · labels: sponsor-bank]
-- **source (jira):** [MRC-3786](https://nubank.atlassian.net/browse/MRC-3786)
 
 #### [MRC-3613] [Beta] Financial Adjustments Whiteboard
 
@@ -3391,6 +3364,57 @@ python scripts/render_board.py
 
 ## In progress
 
+#### [CCFI-2232] Beta Test Plan - Staging and Production
+
+- **id:** `jira-CCFI-2232`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:**
+  [Jira · In Progress · labels: sponsor-bank]
+  
+  (i) Finish the Test Design for Beta Staging and Production and (ii) Start the testing in both environments
+- **people:** Jacqueline Ponce
+- **source (jira):** [CCFI-2232](https://nubank.atlassian.net/browse/CCFI-2232)
+
+#### [MRC-5551] Tech discovery Cashback
+
+- **id:** `jira-MRC-5551`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · In Progress · labels: sponsor-bank]
+- **people:** Nadia Andrushchenko
+- **source (jira):** [MRC-5551](https://nubank.atlassian.net/browse/MRC-5551)
+
+#### [CCFI-2235] CC New Features Lead’s Integration - Lateness
+
+- **id:** `jira-CCFI-2235`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · In Progress · labels: sponsor-bank]
+- **people:** Jacqueline Ponce
+- **source (jira):** [CCFI-2235](https://nubank.atlassian.net/browse/CCFI-2235)
+
+#### [MRC-5549] Review TA from Cashback
+
+- **id:** `jira-MRC-5549`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:**
+  [Jira · In Progress · labels: sponsor-bank]
+  
+  <custom data-type="smartlink" data-id="id-0">https://nubank.atlassian.net/wiki/spaces/TROY/pages/264947040631/Tech+Assessment+-+US+-+Sponsor+Bank+Integration</custom>
+- **people:** Jacqueline Ponce
+- **source (jira):** [MRC-5549](https://nubank.atlassian.net/browse/MRC-5549)
+
+#### [MRC-3542] Cashback
+
+- **id:** `jira-MRC-3542`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · In Progress · labels: sponsor-bank]
+- **people:** Jacqueline Ponce
+- **source (jira):** [MRC-3542](https://nubank.atlassian.net/browse/MRC-3542)
+
 #### [MRC-2992] Sales Request + Responses Report - Beta + Leftover
 
 - **id:** `jira-MRC-2992`
@@ -3615,6 +3639,15 @@ python scripts/render_board.py
 - **source (jira):** [PROMT-15](https://nubank.atlassian.net/browse/PROMT-15)
 
 ## In review
+
+#### [MRC-5550] Create PRD Lead's Report for Cashback
+
+- **id:** `jira-MRC-5550`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · Review · labels: sponsor-bank]
+- **people:** Jacqueline Ponce
+- **source (jira):** [MRC-5550](https://nubank.atlassian.net/browse/MRC-5550)
 
 #### [MRC-1890] Risk based pricing notice
 
@@ -5050,6 +5083,14 @@ python scripts/render_board.py
 - **source (jira):** [MRC-1714](https://nubank.atlassian.net/browse/MRC-1714)
 
 ## Canceled
+
+#### [MRC-3786] [F&F] Transactions Report
+
+- **id:** `jira-MRC-3786`
+- **front:** `sponsor_lead_bank`
+- **priority:** `medium`
+- **description:** [Jira · Canceled · labels: sponsor-bank]
+- **source (jira):** [MRC-3786](https://nubank.atlassian.net/browse/MRC-3786)
 
 #### [MRC-4260] Build a monitoring for Beta user-cases
 
